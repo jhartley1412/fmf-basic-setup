@@ -6,39 +6,25 @@
 
 @media(min-width: 1px){
 	
-	body{
-		position: relative;
-		z-index: 1;
-	}
-
-	.logo{
-		margin: 1rem auto;
-		z-index: 1;
-	}
-
-	.mobile-nav{
+	// UNIVERSAL ELEMENTS
+	.mobile{
 		display: block;
-
-		width: 45px;
-		height: 45px;
-		background-color: grey;
-		
-		position: absolute;
-		top: 0.1rem;
-		left: 8%;
-		z-index: 2;
-	}
-
-	header{
-		background-color: $accent-color;
-	}
-
-	.header-content{
-		padding-top: 3rem;
-		padding-bottom: 3rem;
 	}
 
 
+
+	// SPACE ABOVE HEADER
+	.pre-banner{
+		padding: 1em 0;
+	}
+
+	// LOGO
+	.logo{
+		float: none;
+		margin: 0 auto;
+	}
+
+	// MOBILE HAMBURGER MENU
 
 }
 
@@ -46,15 +32,19 @@
 
 
 
-@media(min-width: 420px){
+@media(min-width: 520px){
 	
-	.mobile-nav{
+	// UNIVERSAL ELEMENTS
+	.mobile{
 		display: none;
 	}
 
-	header{
-		background-color: $tir-color;
+	// LOGO
+	.logo{
+		float: left;
+		margin-left: 5%;
 	}
+	
 
 }
 
@@ -64,7 +54,7 @@
 
 @media(min-width: 978px){
 
-
+	
 }
 
 
