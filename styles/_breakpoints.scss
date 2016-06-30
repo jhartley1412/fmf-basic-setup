@@ -34,6 +34,16 @@
 		padding: 1.2em 2em;
 	}
 
+	// REPORT BUTTONS
+	.reports-container{
+		margin: 0 auto;
+	}
+
+	.button-container{
+		float: none;
+		margin: 1em auto;
+	}
+
 }
 
 
@@ -84,10 +94,23 @@
 		padding: 1.2em 1.8em;
 	}
 
+
 	// LOGIN CONTENT
 	.login-container{
 		margin-left: $gut-width;
 	}
+
+	// REPORT BUTTONS
+	.reports-container{
+		margin-left: $gut-width;
+	}
+
+	.button-container{
+		float: left;
+		margin-right: 10%;
+		margin-bottom: 3em;
+	}
+
 
 }
 
@@ -105,9 +128,22 @@
 		}
 	}
 
+
 	// WHO WE ARE
 	.who-we-are{
 		padding: 1.2em 1em;
+	}
+
+
+	// REPORT BUTTONS
+	.reports-container{
+		margin-left: $gut-width;
+	}
+
+	.button-container{
+		float: left;
+		margin-right: 10%;
+		margin-bottom: 3em;
 	}
 
 }

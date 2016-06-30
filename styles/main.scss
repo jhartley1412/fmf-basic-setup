@@ -112,7 +112,7 @@ header{
 	@extend .col-md-12;
 	@extend .col-lg-12;
 	
-	margin: 1em auto;
+	margin: 0 auto;
 	background-color: $sec-color;
 	box-sizing: border-box;
 	padding: 2em 0;
@@ -142,13 +142,40 @@ header{
 }
 
 .login-container{
-	@extend .col-sm-12;
 	@extend .col-md-4;
 	@extend .col-lg-4;
 
 	float: left;
-	background-color: $sec-color;
 }
+
+
+// REPORT BUTTON ELEMENTS
+// ---------------------------------
+
+.reports-container{
+	@extend .col-sm-10;
+	@extend .col-md-7;
+	@extend .col-lg-5;
+
+	overflow: hidden;
+}
+
+.circle{
+	margin: 1em auto;
+	border-radius: 50%;
+	width: 80px;
+	height: 80px;
+	background-color: $prime-color;
+}
+
+.recent-pets-container{
+	width: 100%;
+	clear: both;
+	margin: 0 auto;
+	background-color: $accent-color;
+}
+
+
 
 
 
