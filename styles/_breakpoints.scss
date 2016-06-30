@@ -11,6 +11,10 @@
 		display: block;
 	}
 
+	.not-mobile{
+		display: none;
+	}
+
 
 
 	// SPACE ABOVE HEADER
@@ -18,13 +22,10 @@
 		padding: 1em 0;
 	}
 
-	// LOGO
 	.logo{
 		float: none;
 		margin: 0 auto;
 	}
-
-	// MOBILE HAMBURGER MENU
 
 }
 
@@ -39,12 +40,35 @@
 		display: none;
 	}
 
-	// LOGO
+	.not-mobile{
+		display: block;
+	}
+
+
+	// HEADER ELEMENTS
 	.logo{
 		float: left;
 		margin-left: 5%;
 	}
 	
+
+
+	// NAVIGATION
+	.nav{
+
+		li{
+			width: 20%;
+
+			&:first-child{
+				width: 10%;
+				padding-left: 3%;
+			}
+
+			&:nth-child(2){
+				padding-left: 3%;
+			}
+		}
+	}
 
 }
 
@@ -53,8 +77,14 @@
 
 
 @media(min-width: 978px){
-
 	
+	// NAVIGATION
+	.nav{
+
+		li{
+			width: 20%;
+		}
+	}
 }
 
 

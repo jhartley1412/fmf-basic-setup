@@ -15,6 +15,7 @@ body{
 .row{
 	width: 100%;
 	max-width: 1800px;
+	margin: 0 auto 1em auto;
 }
 
 .button{
@@ -31,6 +32,23 @@ body{
 
 .search-btn{
 	float: left;
+}
+
+// NAVIGATION
+
+.nav{
+	@extend .col-sm-12;
+	@extend .col-md-12;
+	@extend .col-lg-11;
+	
+	display: table;
+	margin: 0 auto;
+	padding: 0;
+
+	li{
+		display: table-cell;
+		text-align: center;
+	}
 }
 
 
@@ -50,6 +68,7 @@ body{
 	overflow: hidden;
 }
 
+// MOBILE HAMBURGER MENU
 .ham-nav{
 	width: 50px;
 	height: 50px;
