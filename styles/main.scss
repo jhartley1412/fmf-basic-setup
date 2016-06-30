@@ -1,12 +1,44 @@
 
 
-@import "grid";
+@import "grid-variables";
+@import "breakpoints";
 
 
 
+
+// UNIVERSAL ELEMENTS
+
+.button{
+	width: 90px;
+	height: 40px;
+	background-color: $sec-color;
+	text-align: center;
+}
+
+.search-box{
+	float: left;
+	margin-top: 0.2rem;
+	padding: 0.4rem 1rem;
+	border: 1px solid $accent-color;
+}
+
+.search-btn{
+	float: left;
+	margin-left: 1rem;
+}
 
 // HEADER
 // BANNER ON HOMEPAGE
+
+.logo{
+	width: 170px;
+	height: 45px;
+	// MARGIN IN _BREAKPOINTS.SCSS
+	box-sizing: border-box;
+	padding: 0.2rem 0.4rem 0 0.4rem;
+	background-color: $sec-color;
+	text-align: center;
+}
 
 header{
 	@extend .col-lg-12;
@@ -15,5 +47,8 @@ header{
 .header-content{
 	width: 80%;
 	margin: 0 auto;
+	overflow: hidden;
 }
+
+
 

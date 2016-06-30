@@ -1,0 +1,71 @@
+
+
+@import "grid-variables";
+
+
+
+@media(min-width: 1px){
+	
+	body{
+		position: relative;
+		z-index: 1;
+	}
+
+	.logo{
+		margin: 1rem auto;
+		z-index: 1;
+	}
+
+	.mobile-nav{
+		display: block;
+
+		width: 45px;
+		height: 45px;
+		background-color: grey;
+		
+		position: absolute;
+		top: 0.1rem;
+		left: 8%;
+		z-index: 2;
+	}
+
+	header{
+		background-color: $accent-color;
+	}
+
+	.header-content{
+		padding-top: 3rem;
+		padding-bottom: 3rem;
+	}
+
+
+
+}
+
+
+
+
+
+@media(min-width: 420px){
+	
+	.mobile-nav{
+		display: none;
+	}
+
+	header{
+		background-color: $tir-color;
+	}
+
+}
+
+
+
+
+
+@media(min-width: 978px){
+
+
+}
+
+
+
