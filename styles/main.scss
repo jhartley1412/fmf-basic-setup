@@ -16,6 +16,12 @@ body{
 	width: 100%;
 	max-width: 1800px;
 	margin: 0 auto 1em auto;
+	overflow: hidden;
+}
+
+// WHO WE ARE ROW
+.row3{
+	margin-top: 2em;
 }
 
 .button{
@@ -92,7 +98,7 @@ header{
 	@extend .col-md-12;
 	@extend .col-lg-12;
 	
-	margin: 3em auto;
+	margin: 1em auto;
 	background-color: $sec-color;
 	box-sizing: border-box;
 	padding: 2em 0;
@@ -106,6 +112,21 @@ header{
 
 	margin: 0 auto;
 }
+
+
+// WHO WE ARE ELEMENTS
+// ---------------------------------
+
+.who-we-are{
+	@extend .col-sm-12;
+	@extend .col-md-7;
+	@extend .col-lg-7;
+
+	float: left;
+	background-color: $accent-color;
+	box-sizing: border-box;
+}
+
 
 
 

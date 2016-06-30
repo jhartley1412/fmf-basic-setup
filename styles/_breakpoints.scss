@@ -27,6 +27,13 @@
 		margin: 0 auto;
 	}
 
+
+	// WHO WE ARE
+	.who-we-are{
+		margin-left: 0;
+		padding: 1.2em 2em;
+	}
+
 }
 
 
@@ -70,6 +77,13 @@
 		}
 	}
 
+
+	// WHO WE ARE
+	.who-we-are{
+		margin-left: $gut-width;
+		padding: 1.2em 1.8em;
+	}
+
 }
 
 
@@ -84,6 +98,11 @@
 		li{
 			width: 20%;
 		}
+	}
+
+	// WHO WE ARE
+	.who-we-are{
+		padding: 1.2em 1em;
 	}
 }
 
