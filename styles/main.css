@@ -31,7 +31,7 @@
 .col-sm-11 {
   width: 91.33333%; }
 
-.col-sm-12, .nav, .pre-banner, header, .who-we-are {
+.col-sm-12, .nav, .pre-banner, header, .who-we-are, .login-container {
   width: 100%; }
 
 @media (min-width: 520px) {
@@ -44,7 +44,7 @@
   .col-md-3 {
     width: 22%; }
 
-  .col-md-4 {
+  .col-md-4, .login-container {
     width: 30.66667%; }
 
   .col-md-5 {
@@ -80,7 +80,7 @@
   .col-lg-3 {
     width: 22%; }
 
-  .col-lg-4 {
+  .col-lg-4, .login-container {
     width: 30.66667%; }
 
   .col-lg-5, .header-content {
@@ -139,7 +139,7 @@
 .col-sm-11 {
   width: 91.33333%; }
 
-.col-sm-12, .nav, .pre-banner, header, .who-we-are {
+.col-sm-12, .nav, .pre-banner, header, .who-we-are, .login-container {
   width: 100%; }
 
 @media (min-width: 520px) {
@@ -152,7 +152,7 @@
   .col-md-3 {
     width: 22%; }
 
-  .col-md-4 {
+  .col-md-4, .login-container {
     width: 30.66667%; }
 
   .col-md-5 {
@@ -188,7 +188,7 @@
   .col-lg-3 {
     width: 22%; }
 
-  .col-lg-4 {
+  .col-lg-4, .login-container {
     width: 30.66667%; }
 
   .col-lg-5, .header-content {
@@ -252,7 +252,10 @@
 
   .who-we-are {
     margin-left: 4%;
-    padding: 1.2em 1.8em; } }
+    padding: 1.2em 1.8em; }
+
+  .login-container {
+    margin-left: 4%; } }
 @media (min-width: 978px) {
   .nav li {
     width: 20%; }
@@ -274,7 +277,17 @@ body {
 
 .button {
   padding: 0.62em 1em;
-  background-color: lightblue; }
+  background-color: lightblue;
+  min-width: 50.703px;
+  text-align: center; }
+
+.norm-input {
+  display: block;
+  margin-bottom: 1em;
+  padding: 0.2em 0.3em; }
+
+.enter-btn {
+  float: left; }
 
 .search-bar {
   float: left;
@@ -324,5 +337,9 @@ header {
   float: left;
   background-color: #D8D7D9;
   box-sizing: border-box; }
+
+.login-container {
+  float: left;
+  background-color: pink; }
 
 /*# sourceMappingURL=main.css.map */

@@ -24,15 +24,29 @@ body{
 	margin-top: 2em;
 }
 
+
+// BUTTONS AND INPUTS
 .button{
 	padding: 0.62em 1em;
 	background-color: $prime-color;
+	min-width: 50.703px;
+	text-align: center;
 }
 
-// SEARCH BAR ELEMENTS
+.norm-input{
+	display: block;
+	margin-bottom: 1em;
+	padding: 0.2em 0.3em;
+}
 
+.enter-btn{
+	float: left;
+}
+
+
+// SEARCH BAR ELEMENTS
 .search-bar{
-	float:left;
+	float: left;
 	padding: 0.5em 1em;
 }
 
@@ -40,8 +54,8 @@ body{
 	float: left;
 }
 
-// NAVIGATION
 
+// NAVIGATION
 .nav{
 	@extend .col-sm-12;
 	@extend .col-md-12;
@@ -126,6 +140,18 @@ header{
 	background-color: $accent-color;
 	box-sizing: border-box;
 }
+
+.login-container{
+	@extend .col-sm-12;
+	@extend .col-md-4;
+	@extend .col-lg-4;
+
+	float: left;
+	background-color: $sec-color;
+}
+
+
+
 
 
 
