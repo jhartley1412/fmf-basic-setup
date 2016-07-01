@@ -8,6 +8,22 @@
 	<!-- NORMALIZE -->
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
 
+
+	<!-- GOOGLEMAPS -->
+	<script src="http://maps.googleapis.com/maps/api/js">	</script>
+
+	<script>
+		function initialize() {
+		var mapProp = {
+		center:new google.maps.LatLng(30.2672,-97.7431),
+		zoom:15,
+		mapTypeId:google.maps.MapTypeId.ROADMAP
+		};
+		var map=new google.maps.Map(document.getElementById("googleMap"), mapProp);
+		}
+		google.maps.event.addDomListener(window, 'load', initialize);
+	</script>
+
 	<!-- CSS -->
 	<link rel="stylesheet" type="text/css" href="./styles/main.css">
 
@@ -151,16 +167,28 @@
 
 
 
-		<div class="home-map">
+		<div class="home-map not-mobile">
 			
-			
+			<div class="map-container">
 
+				<div id="googleMap">	</div>
+
+				<a href="#">
+					<div class="button trigger-btn trigger-lost"> Lost Pets </div>
+				</a>
+				
+				<a href="#">
+					<div class="button trigger-btn trigger-found"> Found Pets </div>
+				</a>
+			
+			</div>
 
 		</div>
 
 
 	</div>
 	<!-- END ROW 4 -->
+
 
 
 </body>

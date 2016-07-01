@@ -154,7 +154,7 @@ header{
 
 .reports-container{
 	@extend .col-sm-10;
-	@extend .col-md-7;
+	@extend .col-md-6;
 	@extend .col-lg-5;
 
 	overflow: hidden;
@@ -191,6 +191,36 @@ header{
 	}
 }
 
+
+// GOOGLE MAPS
+
+.home-map{
+	@extend .col-sm-10;
+	@extend .col-md-5;
+	@extend .col-lg-6;
+
+	overflow: hidden;
+	float: left;
+	margin-left: $gut-width;
+}
+
+.map-container{
+	display: block;
+	margin: 0 auto;
+}
+
+#googleMap{
+	margin: 0 auto;
+	margin-bottom: 1.6em;
+}
+
+.trigger-lost{
+	float: left;
+}
+
+.trigger-found{
+	float: right;
+}
 
 
 
