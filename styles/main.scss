@@ -131,14 +131,17 @@ header{
 // WHO WE ARE ELEMENTS
 // ---------------------------------
 
-.who-we-are{
+.page-desc{
 	@extend .col-sm-12;
 	@extend .col-md-7;
 	@extend .col-lg-7;
 
 	float: left;
-	background-color: $accent-color;
 	box-sizing: border-box;
+}
+
+.who-we-are{
+	background-color: $accent-color;
 }
 
 .login-container{
@@ -178,6 +181,7 @@ header{
 
 
 // RECENTLY LOST/FOUND PETS
+// ---------------------------------
 
 .pet-pic{
 	background-color: $prime-color;
@@ -192,6 +196,7 @@ header{
 
 
 // GOOGLE MAPS
+// ---------------------------------
 
 .home-map{
 	@extend .col-sm-10;
@@ -221,6 +226,38 @@ header{
 	float: right;
 }
 
+
+
+
+// FIND A PET PAGE
+// ---------------------------------
+// ---------------------------------
+
+.search-container{
+	width: 100%;
+	display: block;
+	clear: both;
+	overflow: hidden;
+	margin-bottom: 2em;
+
+	.pet-search{
+		width: 50%;
+	}
+}
+
+.findapet-head{
+	float: left;
+}
+
+.change-btn{
+	float: right;
+	margin-top: 1.2em;
+}
+
+.findapet-filter{
+	float: left;
+	margin-right: 5%;
+}
 
 
 

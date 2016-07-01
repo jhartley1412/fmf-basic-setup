@@ -29,7 +29,7 @@
 
 
 	// WHO WE ARE
-	.who-we-are{
+	.who-we-are, .page-desc{
 		margin-left: 0;
 		padding: 1.2em 2em;
 	}
@@ -90,7 +90,7 @@
 
 
 	// WHO WE ARE
-	.who-we-are{
+	.page-desc{
 		margin-left: $gut-width;
 		padding: 1.2em 1.8em;
 	}
@@ -146,7 +146,7 @@
 
 
 	// WHO WE ARE
-	.who-we-are{
+	.who-we-are, .page-desc{
 		padding: 1.2em 1em;
 	}
 
@@ -175,8 +175,6 @@
 		width: 450px;
 		height: 400px;
 	}
-
-
 }
 
 

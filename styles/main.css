@@ -31,7 +31,7 @@
 .col-sm-11 {
   width: 91.33333%; }
 
-.col-sm-12, .nav, .pre-banner, header, .who-we-are {
+.col-sm-12, .nav, .pre-banner, header, .page-desc {
   width: 100%; }
 
 @media (min-width: 520px) {
@@ -53,7 +53,7 @@
   .col-md-6, .reports-container {
     width: 48%; }
 
-  .col-md-7, .who-we-are {
+  .col-md-7, .page-desc {
     width: 56.66667%; }
 
   .col-md-8 {
@@ -89,7 +89,7 @@
   .col-lg-6, .home-map {
     width: 48%; }
 
-  .col-lg-7, .who-we-are {
+  .col-lg-7, .page-desc {
     width: 56.66667%; }
 
   .col-lg-8 {
@@ -139,7 +139,7 @@
 .col-sm-11 {
   width: 91.33333%; }
 
-.col-sm-12, .nav, .pre-banner, header, .who-we-are {
+.col-sm-12, .nav, .pre-banner, header, .page-desc {
   width: 100%; }
 
 @media (min-width: 520px) {
@@ -161,7 +161,7 @@
   .col-md-6, .reports-container {
     width: 48%; }
 
-  .col-md-7, .who-we-are {
+  .col-md-7, .page-desc {
     width: 56.66667%; }
 
   .col-md-8 {
@@ -197,7 +197,7 @@
   .col-lg-6, .home-map {
     width: 48%; }
 
-  .col-lg-7, .who-we-are {
+  .col-lg-7, .page-desc {
     width: 56.66667%; }
 
   .col-lg-8 {
@@ -228,7 +228,7 @@
     float: none;
     margin: 0 auto; }
 
-  .who-we-are {
+  .who-we-are, .page-desc {
     margin-left: 0;
     padding: 1.2em 2em; }
 
@@ -258,7 +258,7 @@
     .nav li:nth-child(2) {
       padding-left: 3%; }
 
-  .who-we-are {
+  .page-desc {
     margin-left: 4%;
     padding: 1.2em 1.8em; }
 
@@ -285,7 +285,7 @@
   .nav li {
     width: 20%; }
 
-  .who-we-are {
+  .who-we-are, .page-desc {
     padding: 1.2em 1em; }
 
   .reports-container {
@@ -374,10 +374,12 @@ header {
 .header-content {
   margin: 0 auto; }
 
-.who-we-are {
+.page-desc {
   float: left;
-  background-color: #D8D7D9;
   box-sizing: border-box; }
+
+.who-we-are {
+  background-color: #D8D7D9; }
 
 .login-container {
   float: left; }
@@ -425,5 +427,25 @@ header {
 
 .trigger-found {
   float: right; }
+
+.search-container {
+  width: 100%;
+  display: block;
+  clear: both;
+  overflow: hidden;
+  margin-bottom: 2em; }
+  .search-container .pet-search {
+    width: 50%; }
+
+.findapet-head {
+  float: left; }
+
+.change-btn {
+  float: right;
+  margin-top: 1.2em; }
+
+.findapet-filter {
+  float: left;
+  margin-right: 5%; }
 
 /*# sourceMappingURL=main.css.map */
