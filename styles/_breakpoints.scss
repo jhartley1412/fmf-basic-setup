@@ -36,6 +36,7 @@
 
 	// REPORT BUTTONS
 	.reports-container{
+		float: none;
 		margin: 0 auto;
 	}
 
@@ -104,6 +105,7 @@
 	// REPORT BUTTONS
 	.reports-container{
 		margin-left: $gut-width;
+		float: left;
 	}
 
 	.button-container{

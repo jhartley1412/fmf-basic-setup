@@ -233,6 +233,7 @@
     padding: 1.2em 2em; }
 
   .reports-container {
+    float: none;
     margin: 0 auto; }
 
   .button-container {
@@ -265,7 +266,8 @@
     margin-left: 4%; }
 
   .reports-container {
-    margin-left: 4%; }
+    margin-left: 4%;
+    float: left; }
 
   .button-container {
     float: left;
@@ -381,8 +383,7 @@ header {
   float: left; }
 
 .reports-container {
-  overflow: hidden;
-  float: left; }
+  overflow: hidden; }
 
 .circle {
   margin: 1em auto;
