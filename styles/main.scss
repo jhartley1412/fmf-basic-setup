@@ -198,7 +198,7 @@ header{
 // GOOGLE MAPS
 // ---------------------------------
 
-.home-map{
+.home-map-container{
 	@extend .col-sm-10;
 	@extend .col-md-5;
 	@extend .col-lg-6;
@@ -208,7 +208,7 @@ header{
 	margin-left: $gut-width;
 }
 
-.map-container{
+.home-map{
 	display: block;
 	margin: 0 auto;
 }
@@ -257,6 +257,20 @@ header{
 .findapet-filter{
 	float: left;
 	margin-right: 5%;
+}
+
+
+// GOOGLE MAP (FIND A PET)
+// ---------------------------------
+
+.find-map-container{
+	@extend .col-sm-10;
+	@extend .col-md-4;
+	@extend .col-lg-4;
+
+	overflow: hidden;
+	float: left;
+	margin-left: $gut-width;
 }
 
 

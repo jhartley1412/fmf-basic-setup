@@ -25,7 +25,7 @@
 .col-sm-9 {
   width: 74%; }
 
-.col-sm-10, .header-content, .reports-container, .home-map {
+.col-sm-10, .header-content, .reports-container, .home-map-container, .find-map-container {
   width: 82.66667%; }
 
 .col-sm-11 {
@@ -44,10 +44,10 @@
   .col-md-3 {
     width: 22%; }
 
-  .col-md-4, .login-container {
+  .col-md-4, .login-container, .find-map-container {
     width: 30.66667%; }
 
-  .col-md-5, .home-map {
+  .col-md-5, .home-map-container {
     width: 39.33333%; }
 
   .col-md-6, .reports-container {
@@ -80,13 +80,13 @@
   .col-lg-3 {
     width: 22%; }
 
-  .col-lg-4, .login-container {
+  .col-lg-4, .login-container, .find-map-container {
     width: 30.66667%; }
 
   .col-lg-5, .header-content, .reports-container {
     width: 39.33333%; }
 
-  .col-lg-6, .home-map {
+  .col-lg-6, .home-map-container {
     width: 48%; }
 
   .col-lg-7, .page-desc {
@@ -133,7 +133,7 @@
 .col-sm-9 {
   width: 74%; }
 
-.col-sm-10, .header-content, .reports-container, .home-map {
+.col-sm-10, .header-content, .reports-container, .home-map-container, .find-map-container {
   width: 82.66667%; }
 
 .col-sm-11 {
@@ -152,10 +152,10 @@
   .col-md-3 {
     width: 22%; }
 
-  .col-md-4, .login-container {
+  .col-md-4, .login-container, .find-map-container {
     width: 30.66667%; }
 
-  .col-md-5, .home-map {
+  .col-md-5, .home-map-container {
     width: 39.33333%; }
 
   .col-md-6, .reports-container {
@@ -188,13 +188,13 @@
   .col-lg-3 {
     width: 22%; }
 
-  .col-lg-4, .login-container {
+  .col-lg-4, .login-container, .find-map-container {
     width: 30.66667%; }
 
   .col-lg-5, .header-content, .reports-container {
     width: 39.33333%; }
 
-  .col-lg-6, .home-map {
+  .col-lg-6, .home-map-container {
     width: 48%; }
 
   .col-lg-7, .page-desc {
@@ -278,9 +278,19 @@
     width: 70px;
     height: 75px; }
 
-  .map-container, #googleMap {
+  .home-map {
     width: 300px;
-    height: 250px; } }
+    height: 250px; }
+    .home-map #googleMap {
+      width: 300px;
+      height: 250px; }
+
+  .find-map {
+    width: 200px;
+    height: 150px; }
+    .find-map #googleMap {
+      width: 200px;
+      height: 150px; } }
 @media (min-width: 978px) {
   .nav li {
     width: 20%; }
@@ -300,9 +310,19 @@
     width: 110px;
     height: 115px; }
 
-  .map-container, #googleMap {
+  .home-map {
     width: 450px;
-    height: 400px; } }
+    height: 400px; }
+    .home-map #googleMap {
+      width: 450px;
+      height: 400px; }
+
+  .find-map {
+    width: 300px;
+    height: 250px; }
+    .find-map #googleMap {
+      width: 300px;
+      height: 250px; } }
 body {
   position: relative;
   margin: 0 auto; }
@@ -409,12 +429,12 @@ header {
   .pet-pic:last-child {
     margin-right: 0; }
 
-.home-map {
+.home-map-container {
   overflow: hidden;
   float: left;
   margin-left: 4%; }
 
-.map-container {
+.home-map {
   display: block;
   margin: 0 auto; }
 
@@ -447,5 +467,10 @@ header {
 .findapet-filter {
   float: left;
   margin-right: 5%; }
+
+.find-map-container {
+  overflow: hidden;
+  float: left;
+  margin-left: 4%; }
 
 /*# sourceMappingURL=main.css.map */

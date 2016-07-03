@@ -123,9 +123,24 @@
 
 
 	// GOOGLE MAPS
-	.map-container, #googleMap{
+	.home-map{
 		width: 300px;
 		height: 250px;
+
+		#googleMap{
+			width: 300px;
+			height: 250px;
+		}
+	}
+
+	.find-map{
+		width: 200px;
+		height: 150px;
+
+		#googleMap{
+			width: 200px;
+			height: 150px;
+		}
 	}
 
 }
@@ -171,10 +186,26 @@
 
 	
 	// GOOGLE MAPS
-	.map-container, #googleMap{
+	.home-map{
 		width: 450px;
 		height: 400px;
+
+		#googleMap{
+			width: 450px;
+			height: 400px;
+		}
 	}
+
+	.find-map{
+		width: 300px;
+		height: 250px;
+
+		#googleMap{
+			width: 300px;
+			height: 250px;
+		}
+	}
+	
 }
 
 
