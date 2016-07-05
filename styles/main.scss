@@ -274,6 +274,42 @@ header{
 }
 
 
+// RECENTLY LOST PETS
+// ---------------------------------
+
+.lost-pets-container{
+	@extend .col-sm-10;
+	@extend .col-md-4;
+	@extend .col-lg-7;
+	
+	overflow: hidden;
+	margin-left: $gut-width;
+
+	h3{
+		padding-left: 1em;
+	}
+}
+
+.lost-pet-pic, .pet-container{
+	float: left;
+	margin-right: 4%;
+	margin-bottom: 1.2em;
+	text-align: center;
+	position: relative;
+
+	&:last-child{
+		margin-right: 0;
+	}
+}
+
+.lost-pet-pic{
+	background-color: $prime-color;
+}
+
+.pet-name{
+	text-align: center;
+}
+
 
 
 

@@ -25,7 +25,7 @@
 .col-sm-9 {
   width: 74%; }
 
-.col-sm-10, .header-content, .reports-container, .home-map-container, .find-map-container {
+.col-sm-10, .header-content, .reports-container, .home-map-container, .find-map-container, .lost-pets-container {
   width: 82.66667%; }
 
 .col-sm-11 {
@@ -44,7 +44,7 @@
   .col-md-3 {
     width: 22%; }
 
-  .col-md-4, .login-container, .find-map-container {
+  .col-md-4, .login-container, .find-map-container, .lost-pets-container {
     width: 30.66667%; }
 
   .col-md-5, .home-map-container {
@@ -89,7 +89,7 @@
   .col-lg-6, .home-map-container {
     width: 48%; }
 
-  .col-lg-7, .page-desc {
+  .col-lg-7, .page-desc, .lost-pets-container {
     width: 56.66667%; }
 
   .col-lg-8 {
@@ -133,7 +133,7 @@
 .col-sm-9 {
   width: 74%; }
 
-.col-sm-10, .header-content, .reports-container, .home-map-container, .find-map-container {
+.col-sm-10, .header-content, .reports-container, .home-map-container, .find-map-container, .lost-pets-container {
   width: 82.66667%; }
 
 .col-sm-11 {
@@ -152,7 +152,7 @@
   .col-md-3 {
     width: 22%; }
 
-  .col-md-4, .login-container, .find-map-container {
+  .col-md-4, .login-container, .find-map-container, .lost-pets-container {
     width: 30.66667%; }
 
   .col-md-5, .home-map-container {
@@ -197,7 +197,7 @@
   .col-lg-6, .home-map-container {
     width: 48%; }
 
-  .col-lg-7, .page-desc {
+  .col-lg-7, .page-desc, .lost-pets-container {
     width: 56.66667%; }
 
   .col-lg-8 {
@@ -309,6 +309,14 @@
   .pet-pic {
     width: 110px;
     height: 115px; }
+
+  .lost-pet-pic {
+    width: 150px;
+    height: 155px; }
+
+  .pet-container {
+    width: 150px;
+    height: 200px; }
 
   .home-map {
     width: 450px;
@@ -472,5 +480,26 @@ header {
   overflow: hidden;
   float: left;
   margin-left: 4%; }
+
+.lost-pets-container {
+  overflow: hidden;
+  margin-left: 4%; }
+  .lost-pets-container h3 {
+    padding-left: 1em; }
+
+.lost-pet-pic, .pet-container {
+  float: left;
+  margin-right: 4%;
+  margin-bottom: 1.2em;
+  text-align: center;
+  position: relative; }
+  .lost-pet-pic:last-child, .pet-container:last-child {
+    margin-right: 0; }
+
+.lost-pet-pic {
+  background-color: lightblue; }
+
+.pet-name {
+  text-align: center; }
 
 /*# sourceMappingURL=main.css.map */
