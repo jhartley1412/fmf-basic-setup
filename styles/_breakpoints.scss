@@ -62,6 +62,10 @@
 		display: block;
 	}
 
+	a{
+		font-size: 0.8rem;
+	}
+
 
 	// HEADER ELEMENTS
 	.logo{
@@ -151,6 +155,12 @@
 
 @media(min-width: 978px){
 	
+	// UNIVERSAL ELEMENTS
+	a{
+		font-size: 1rem;
+	}
+
+
 	// NAVIGATION
 	.nav{
 

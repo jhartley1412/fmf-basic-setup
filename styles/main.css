@@ -246,6 +246,9 @@
   .not-mobile {
     display: block; }
 
+  a {
+    font-size: 0.8rem; }
+
   .logo {
     float: left;
     margin-left: 5%; }
@@ -292,6 +295,9 @@
       width: 200px;
       height: 150px; } }
 @media (min-width: 978px) {
+  a {
+    font-size: 1rem; }
+
   .nav li {
     width: 20%; }
 
