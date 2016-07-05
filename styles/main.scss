@@ -27,10 +27,12 @@ body{
 
 // BUTTONS AND INPUTS
 .button{
+	display: inline-block;
 	padding: 0.62em 1em;
 	background-color: $prime-color;
 	min-width: 50.703px;
 	text-align: center;
+	max-height: 2em;
 }
 
 .norm-input{
@@ -251,12 +253,12 @@ header{
 
 .change-btn{
 	float: right;
-	margin-top: 1.2em;
 }
 
 .findapet-filter{
 	float: left;
 	margin-right: 5%;
+	margin-bottom: 1em;
 }
 
 
@@ -270,24 +272,19 @@ header{
 
 	overflow: hidden;
 	float: left;
-	margin-left: $gut-width;
 }
 
 
 // RECENTLY LOST PETS
 // ---------------------------------
 
-.lost-pets-container{
-	@extend .col-sm-10;
-	@extend .col-md-4;
+.lost-pets-container, .found-pet-container{
+	@extend .col-sm-12;
+	@extend .col-md-7;
 	@extend .col-lg-7;
 	
 	overflow: hidden;
-	margin-left: $gut-width;
-
-	h3{
-		padding-left: 1em;
-	}
+	box-sizing: border-box;
 }
 
 .lost-pet-pic, .pet-container{
@@ -295,7 +292,6 @@ header{
 	margin-right: 4%;
 	margin-bottom: 1.2em;
 	text-align: center;
-	position: relative;
 
 	&:last-child{
 		margin-right: 0;

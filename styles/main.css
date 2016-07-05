@@ -25,13 +25,13 @@
 .col-sm-9 {
   width: 74%; }
 
-.col-sm-10, .header-content, .reports-container, .home-map-container, .find-map-container, .lost-pets-container {
+.col-sm-10, .header-content, .reports-container, .home-map-container, .find-map-container {
   width: 82.66667%; }
 
 .col-sm-11 {
   width: 91.33333%; }
 
-.col-sm-12, .nav, .pre-banner, header, .page-desc {
+.col-sm-12, .nav, .pre-banner, header, .page-desc, .lost-pets-container, .found-pet-container {
   width: 100%; }
 
 @media (min-width: 520px) {
@@ -44,7 +44,7 @@
   .col-md-3 {
     width: 22%; }
 
-  .col-md-4, .login-container, .find-map-container, .lost-pets-container {
+  .col-md-4, .login-container, .find-map-container {
     width: 30.66667%; }
 
   .col-md-5, .home-map-container {
@@ -53,7 +53,7 @@
   .col-md-6, .reports-container {
     width: 48%; }
 
-  .col-md-7, .page-desc {
+  .col-md-7, .page-desc, .lost-pets-container, .found-pet-container {
     width: 56.66667%; }
 
   .col-md-8 {
@@ -89,7 +89,7 @@
   .col-lg-6, .home-map-container {
     width: 48%; }
 
-  .col-lg-7, .page-desc, .lost-pets-container {
+  .col-lg-7, .page-desc, .lost-pets-container, .found-pet-container {
     width: 56.66667%; }
 
   .col-lg-8 {
@@ -133,13 +133,13 @@
 .col-sm-9 {
   width: 74%; }
 
-.col-sm-10, .header-content, .reports-container, .home-map-container, .find-map-container, .lost-pets-container {
+.col-sm-10, .header-content, .reports-container, .home-map-container, .find-map-container {
   width: 82.66667%; }
 
 .col-sm-11 {
   width: 91.33333%; }
 
-.col-sm-12, .nav, .pre-banner, header, .page-desc {
+.col-sm-12, .nav, .pre-banner, header, .page-desc, .lost-pets-container, .found-pet-container {
   width: 100%; }
 
 @media (min-width: 520px) {
@@ -152,7 +152,7 @@
   .col-md-3 {
     width: 22%; }
 
-  .col-md-4, .login-container, .find-map-container, .lost-pets-container {
+  .col-md-4, .login-container, .find-map-container {
     width: 30.66667%; }
 
   .col-md-5, .home-map-container {
@@ -161,7 +161,7 @@
   .col-md-6, .reports-container {
     width: 48%; }
 
-  .col-md-7, .page-desc {
+  .col-md-7, .page-desc, .lost-pets-container, .found-pet-container {
     width: 56.66667%; }
 
   .col-md-8 {
@@ -197,7 +197,7 @@
   .col-lg-6, .home-map-container {
     width: 48%; }
 
-  .col-lg-7, .page-desc, .lost-pets-container {
+  .col-lg-7, .page-desc, .lost-pets-container, .found-pet-container {
     width: 56.66667%; }
 
   .col-lg-8 {
@@ -238,7 +238,15 @@
 
   .button-container {
     float: none;
-    margin: 1em auto; } }
+    margin: 1em auto; }
+
+  .lost-pets-container {
+    margin-left: 0;
+    padding: 0 2em; }
+
+  .pet-container {
+    width: 100%;
+    background-color: #D8D7D9; } }
 @media (min-width: 520px) {
   .mobile {
     display: none; }
@@ -281,6 +289,19 @@
     width: 70px;
     height: 75px; }
 
+  .lost-pets-container {
+    margin-left: 4%;
+    padding: 0;
+    padding-left: 1em; }
+
+  .lost-pet-pic {
+    width: 90px;
+    height: 95px; }
+
+  .pet-container {
+    width: 90px;
+    height: 130px; }
+
   .home-map {
     width: 300px;
     height: 250px; }
@@ -316,6 +337,9 @@
     width: 110px;
     height: 115px; }
 
+  .lost-pets-container {
+    margin-left: 8%; }
+
   .lost-pet-pic {
     width: 150px;
     height: 155px; }
@@ -323,6 +347,9 @@
   .pet-container {
     width: 150px;
     height: 200px; }
+
+  .findapet-desc {
+    margin-left: 8%; }
 
   .home-map {
     width: 450px;
@@ -351,10 +378,12 @@ body {
   margin-top: 2em; }
 
 .button {
+  display: inline-block;
   padding: 0.62em 1em;
   background-color: lightblue;
   min-width: 50.703px;
-  text-align: center; }
+  text-align: center;
+  max-height: 2em; }
 
 .norm-input {
   display: block;
@@ -475,30 +504,26 @@ header {
   float: left; }
 
 .change-btn {
-  float: right;
-  margin-top: 1.2em; }
+  float: right; }
 
 .findapet-filter {
   float: left;
-  margin-right: 5%; }
+  margin-right: 5%;
+  margin-bottom: 1em; }
 
 .find-map-container {
   overflow: hidden;
-  float: left;
-  margin-left: 4%; }
+  float: left; }
 
-.lost-pets-container {
+.lost-pets-container, .found-pet-container {
   overflow: hidden;
-  margin-left: 4%; }
-  .lost-pets-container h3 {
-    padding-left: 1em; }
+  box-sizing: border-box; }
 
 .lost-pet-pic, .pet-container {
   float: left;
   margin-right: 4%;
   margin-bottom: 1.2em;
-  text-align: center;
-  position: relative; }
+  text-align: center; }
   .lost-pet-pic:last-child, .pet-container:last-child {
     margin-right: 0; }
 

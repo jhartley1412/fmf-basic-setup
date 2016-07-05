@@ -45,6 +45,18 @@
 		margin: 1em auto;
 	}
 
+
+	// RECENTLY LOST/FOUND PETS (FIND A PET PAGE)
+	.lost-pets-container{
+		margin-left: 0;
+		padding: 0 2em;
+	}
+
+	.pet-container{
+		width: 100%;
+		background-color: $accent-color;
+	}
+
 }
 
 
@@ -117,12 +129,29 @@
 		margin-right: 5%;
 		margin-bottom: 3em;
 	}
-	
 
-	// RECENTLY LOST/FOUND PETS
+
+	// RECENTLY LOST/FOUND PETS (HOMEPAGE)
 	.pet-pic{
 		width: 70px;
 		height: 75px;
+	}
+
+	// RECENTLY LOST/FOUND PETS (FIND A PET PAGE)
+	.lost-pets-container{
+		margin-left: 4%;
+		padding: 0;
+		padding-left: 1em;
+	}
+
+	.lost-pet-pic{
+		width: 90px;
+		height: 95px;
+	}
+
+	.pet-container{
+		width: 90px;
+		height: 130px;
 	}
 
 
@@ -196,6 +225,10 @@
 
 
 	// RECENTLY LOST/FOUND PETS (FIND A PET PAGE)
+	.lost-pets-container{
+		margin-left: 8%;
+	}
+
 	.lost-pet-pic{
 		width: 150px;
 		height: 155px;
@@ -204,6 +237,12 @@
 	.pet-container{
 		width: 150px;
 		height: 200px;
+	}
+	
+
+	// FIND A PET DESC
+	.findapet-desc{
+		margin-left: 8%;
 	}
 
 	
