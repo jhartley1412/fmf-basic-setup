@@ -297,7 +297,7 @@ header{
 	margin-bottom: 2em;
 }
 
-.lost-pets-container, .found-pet-container{
+.lost-pets-container, .found-pets-container{
 	@extend .col-sm-12;
 	@extend .col-md-7;
 	@extend .col-lg-7;
@@ -306,10 +306,13 @@ header{
 	box-sizing: border-box;
 }
 
-.lost-pet-pic, .pet-container{
+.lost-pet-pic, .found-pet-pic, .pet-container{
 	margin-right: 4%;
 	margin-bottom: 1.2em;
-	text-align: center;
+
+	h3{
+		text-align: center;
+	}
 
 	&:last-child{
 		margin-right: 0;
@@ -320,7 +323,7 @@ header{
 	}
 }
 
-.lost-pet-pic{
+.lost-pet-pic, .found-pet-pic{
 	background-color: $prime-color;
 }
 
@@ -336,6 +339,10 @@ header{
 		margin-left: 0;
 		margin-right: 1em;
 	}
+}
+
+.claim-pet{
+	display: block;
 }
 
 

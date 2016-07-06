@@ -31,7 +31,7 @@
 .col-sm-11 {
   width: 91.33333%; }
 
-.col-sm-12, .nav, .pre-banner, header, .page-desc, .lost-pets-container, .found-pet-container {
+.col-sm-12, .nav, .pre-banner, header, .page-desc, .lost-pets-container, .found-pets-container {
   width: 100%; }
 
 @media (min-width: 520px) {
@@ -53,7 +53,7 @@
   .col-md-6, .reports-container {
     width: 48%; }
 
-  .col-md-7, .page-desc, .lost-pets-container, .found-pet-container {
+  .col-md-7, .page-desc, .lost-pets-container, .found-pets-container {
     width: 56.66667%; }
 
   .col-md-8 {
@@ -89,7 +89,7 @@
   .col-lg-6, .home-map-container {
     width: 48%; }
 
-  .col-lg-7, .page-desc, .lost-pets-container, .found-pet-container {
+  .col-lg-7, .page-desc, .lost-pets-container, .found-pets-container {
     width: 56.66667%; }
 
   .col-lg-8 {
@@ -139,7 +139,7 @@
 .col-sm-11 {
   width: 91.33333%; }
 
-.col-sm-12, .nav, .pre-banner, header, .page-desc, .lost-pets-container, .found-pet-container {
+.col-sm-12, .nav, .pre-banner, header, .page-desc, .lost-pets-container, .found-pets-container {
   width: 100%; }
 
 @media (min-width: 520px) {
@@ -161,7 +161,7 @@
   .col-md-6, .reports-container {
     width: 48%; }
 
-  .col-md-7, .page-desc, .lost-pets-container, .found-pet-container {
+  .col-md-7, .page-desc, .lost-pets-container, .found-pets-container {
     width: 56.66667%; }
 
   .col-md-8 {
@@ -197,7 +197,7 @@
   .col-lg-6, .home-map-container {
     width: 48%; }
 
-  .col-lg-7, .page-desc, .lost-pets-container, .found-pet-container {
+  .col-lg-7, .page-desc, .lost-pets-container, .found-pets-container {
     width: 56.66667%; }
 
   .col-lg-8 {
@@ -240,11 +240,11 @@
     float: none;
     margin: 1em auto; }
 
-  .lost-pets-container {
+  .lost-pets-container, .found-pets-container {
     margin-left: 0;
     padding: 0 2em; }
 
-  .lost-pet-pic {
+  .lost-pet-pic, .found-pet-pic {
     float: right;
     width: 90px;
     height: 95px; }
@@ -255,7 +255,10 @@
   .pet-container {
     float: left;
     width: 100%;
-    background-color: #D8D7D9; } }
+    background-color: #D8D7D9; }
+
+  .claim-pet {
+    text-align: left; } }
 @media (min-width: 520px) {
   .mobile {
     display: none; }
@@ -298,12 +301,12 @@
     width: 70px;
     height: 75px; }
 
-  .lost-pets-container {
+  .lost-pets-container, .found-pets-container {
     margin-left: 4%;
     padding: 0;
     padding-left: 1em; }
 
-  .lost-pet-pic {
+  .lost-pet-pic, .found-pet-pic {
     float: left;
     width: 90px;
     height: 95px; }
@@ -315,6 +318,9 @@
     float: left;
     width: 90px;
     height: 130px; }
+
+  .claim-pet {
+    text-align: center; }
 
   .home-map {
     width: 300px;
@@ -351,10 +357,10 @@
     width: 110px;
     height: 115px; }
 
-  .lost-pets-container {
+  .lost-pets-container, .found-pets-container {
     margin-left: 8%; }
 
-  .lost-pet-pic {
+  .lost-pet-pic, .found-pet-pic {
     width: 150px;
     height: 155px; }
 
@@ -544,20 +550,21 @@ header {
   width: 80%;
   margin-bottom: 2em; }
 
-.lost-pets-container, .found-pet-container {
+.lost-pets-container, .found-pets-container {
   overflow: hidden;
   box-sizing: border-box; }
 
-.lost-pet-pic, .pet-container {
+.lost-pet-pic, .found-pet-pic, .pet-container {
   margin-right: 4%;
-  margin-bottom: 1.2em;
-  text-align: center; }
-  .lost-pet-pic:last-child, .pet-container:last-child {
+  margin-bottom: 1.2em; }
+  .lost-pet-pic h3, .found-pet-pic h3, .pet-container h3 {
+    text-align: center; }
+  .lost-pet-pic:last-child, .found-pet-pic:last-child, .pet-container:last-child {
     margin-right: 0; }
-  .lost-pet-pic .contact-owners, .pet-container .contact-owners {
+  .lost-pet-pic .contact-owners, .found-pet-pic .contact-owners, .pet-container .contact-owners {
     text-align: left; }
 
-.lost-pet-pic {
+.lost-pet-pic, .found-pet-pic {
   background-color: lightblue; }
 
 .pet-info {
@@ -568,5 +575,8 @@ header {
   .pet-info .info-text {
     margin-left: 0;
     margin-right: 1em; }
+
+.claim-pet {
+  display: block; }
 
 /*# sourceMappingURL=main.css.map */
