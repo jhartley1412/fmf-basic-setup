@@ -244,7 +244,16 @@
     margin-left: 0;
     padding: 0 2em; }
 
+  .lost-pet-pic {
+    float: right;
+    width: 90px;
+    height: 95px; }
+
+  .pet-name {
+    text-align: left; }
+
   .pet-container {
+    float: left;
     width: 100%;
     background-color: #D8D7D9; } }
 @media (min-width: 520px) {
@@ -295,10 +304,15 @@
     padding-left: 1em; }
 
   .lost-pet-pic {
+    float: left;
     width: 90px;
     height: 95px; }
 
+  .pet-name {
+    text-align: center; }
+
   .pet-container {
+    float: left;
     width: 90px;
     height: 130px; }
 
@@ -376,6 +390,10 @@ body {
 
 .row3 {
   margin-top: 2em; }
+
+h5 {
+  display: inline-block;
+  clear: both; }
 
 .button {
   display: inline-block;
@@ -515,22 +533,40 @@ header {
   overflow: hidden;
   float: left; }
 
+.trigger-btn-container {
+  width: 100%;
+  clear: both; }
+
+.trigger-lost-btn, .trigger-found-btn {
+  clear: both;
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  margin-bottom: 2em; }
+
 .lost-pets-container, .found-pet-container {
   overflow: hidden;
   box-sizing: border-box; }
 
 .lost-pet-pic, .pet-container {
-  float: left;
   margin-right: 4%;
   margin-bottom: 1.2em;
   text-align: center; }
   .lost-pet-pic:last-child, .pet-container:last-child {
     margin-right: 0; }
+  .lost-pet-pic .contact-owners, .pet-container .contact-owners {
+    text-align: left; }
 
 .lost-pet-pic {
   background-color: lightblue; }
 
-.pet-name {
-  text-align: center; }
+.pet-info {
+  width: 65%;
+  max-width: 450px; }
+  .pet-info h5 {
+    margin-left: 0; }
+  .pet-info .info-text {
+    margin-left: 0;
+    margin-right: 1em; }
 
 /*# sourceMappingURL=main.css.map */

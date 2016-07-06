@@ -52,7 +52,18 @@
 		padding: 0 2em;
 	}
 
+	.lost-pet-pic{
+		float: right;
+		width: 90px;
+		height: 95px;
+	}
+
+	.pet-name{
+		text-align: left;
+	}
+
 	.pet-container{
+		float:left;
 		width: 100%;
 		background-color: $accent-color;
 	}
@@ -145,11 +156,17 @@
 	}
 
 	.lost-pet-pic{
+		float: left;
 		width: 90px;
 		height: 95px;
 	}
 
+	.pet-name{
+		text-align: center;
+	}
+
 	.pet-container{
+		float: left;
 		width: 90px;
 		height: 130px;
 	}
