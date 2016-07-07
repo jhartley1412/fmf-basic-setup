@@ -257,8 +257,8 @@
     width: 100%;
     background-color: #D8D7D9; }
 
-  .claim-pet {
-    text-align: left; } }
+  .claim-pet, .contact-owners {
+    text-align: right; } }
 @media (min-width: 520px) {
   .mobile {
     display: none; }
@@ -319,7 +319,7 @@
     width: 90px;
     height: 130px; }
 
-  .claim-pet {
+  .claim-pet, .contact-owners {
     text-align: center; }
 
   .home-map {
@@ -561,8 +561,6 @@ header {
     text-align: center; }
   .lost-pet-pic:last-child, .found-pet-pic:last-child, .pet-container:last-child {
     margin-right: 0; }
-  .lost-pet-pic .contact-owners, .found-pet-pic .contact-owners, .pet-container .contact-owners {
-    text-align: left; }
 
 .lost-pet-pic, .found-pet-pic {
   background-color: lightblue; }

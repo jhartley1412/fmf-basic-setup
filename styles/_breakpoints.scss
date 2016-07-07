@@ -68,8 +68,8 @@
 		background-color: $accent-color;
 	}
 
-	.claim-pet{
-		text-align: left;
+	.claim-pet, .contact-owners{
+		text-align: right;
 	}
 
 }
@@ -175,7 +175,7 @@
 		height: 130px;
 	}
 
-	.claim-pet{
+	.claim-pet, .contact-owners{
 		text-align: center;
 	}
 
