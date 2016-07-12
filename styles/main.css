@@ -31,7 +31,7 @@
 .col-sm-11 {
   width: 91.33333%; }
 
-.col-sm-12, .nav, .pre-banner, header, .page-desc, .lost-pets-container, .found-pets-container {
+.col-sm-12, .nav, .pre-banner, header, .page-desc, .lost-pets-container, .found-pets-container, .account-info-container {
   width: 100%; }
 
 @media (min-width: 520px) {
@@ -53,7 +53,7 @@
   .col-md-6, .reports-container {
     width: 48%; }
 
-  .col-md-7, .page-desc, .lost-pets-container, .found-pets-container {
+  .col-md-7, .page-desc, .lost-pets-container, .found-pets-container, .account-info-container {
     width: 56.66667%; }
 
   .col-md-8 {
@@ -98,7 +98,7 @@
   .col-lg-9 {
     width: 74%; }
 
-  .col-lg-10 {
+  .col-lg-10, .account-info-container {
     width: 82.66667%; }
 
   .col-lg-11, .nav {
@@ -139,7 +139,7 @@
 .col-sm-11 {
   width: 91.33333%; }
 
-.col-sm-12, .nav, .pre-banner, header, .page-desc, .lost-pets-container, .found-pets-container {
+.col-sm-12, .nav, .pre-banner, header, .page-desc, .lost-pets-container, .found-pets-container, .account-info-container {
   width: 100%; }
 
 @media (min-width: 520px) {
@@ -161,7 +161,7 @@
   .col-md-6, .reports-container {
     width: 48%; }
 
-  .col-md-7, .page-desc, .lost-pets-container, .found-pets-container {
+  .col-md-7, .page-desc, .lost-pets-container, .found-pets-container, .account-info-container {
     width: 56.66667%; }
 
   .col-md-8 {
@@ -206,7 +206,7 @@
   .col-lg-9 {
     width: 74%; }
 
-  .col-lg-10 {
+  .col-lg-10, .account-info-container {
     width: 82.66667%; }
 
   .col-lg-11, .nav {
@@ -383,7 +383,12 @@
     height: 250px; }
     .find-map #googleMap {
       width: 300px;
-      height: 250px; } }
+      height: 250px; }
+
+  .profile-pic {
+    width: 180px;
+    height: 200px;
+    margin-right: 2em; } }
 body {
   position: relative;
   margin: 0 auto; }
@@ -576,5 +581,25 @@ header {
 
 .claim-pet {
   display: block; }
+
+.account-info-container {
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding-top: 2em; }
+
+.profile-pic {
+  float: left;
+  background-color: lightblue; }
+
+.account-info {
+  float: left; }
+
+.account-label {
+  display: block;
+  margin-bottom: 1.2em;
+  font-weight: 700; }
+
+.user-input {
+  font-weight: 500; }
 
 /*# sourceMappingURL=main.css.map */

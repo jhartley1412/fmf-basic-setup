@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!-- PHONE META TAG -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- NORMALIZE -->
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+
+
+	<!-- GOOGLEMAPS -->
+	<script src="http://maps.googleapis.com/maps/api/js">	</script>
+
+	<script>
+		function initialize() {
+		var mapProp = {
+		center:new google.maps.LatLng(30.2672,-97.7431),
+		zoom:15,
+		mapTypeId:google.maps.MapTypeId.ROADMAP
+		};
+		var map=new google.maps.Map(document.getElementById("googleMap"), mapProp);
+		}
+		google.maps.event.addDomListener(window, 'load', initialize);
+	</script>
+
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="./styles/main.css">
+
+</head>
+
+
+
+<body>
+	
+	<!-- START ROW 1 -->
+	<div class="row row1">
+
+		<!-- SPACE ABOVE HEADER -->
+		<div class="pre-banner">
+			
+			<div class="ham-nav mobile"> </div>
+
+			<a href="#">
+				<div class="logo"> FUTURE LOGO </div>
+			</a>
+		
+		</div>
+
+		<!-- HEADER BANNER -->
+		<header>
+			
+			<div class="header-content">
+				
+				<h1 class="findapet-head"> My Account </h1>
+
+			</div>
+
+		</header>
+
+	</div>
+	<!-- END ROW 1 -->
+	
+	<!-- START ROW 1 -->
+	<div class="row row2 not-mobile">
+		
+		<ul class="nav">
+
+			<li> <a href="index.html"> Home </a> </li>
+
+			<li> <a href="findapet.html"> Find a Pet </a> </li>
+
+			<li> <a href="#"> Report a Lost Pet </a> </li>
+
+			<li> <a href="#"> Report a Found Pet </a> </li>
+			
+			<li> <a href="#"> Create an Account </a> </li>
+
+		</ul>
+
+	</div>
+	<!-- END ROW 2 -->
+
+	<!-- START ROW 3 -->
+	<div class="row row3">
+
+		<div class="account-info-container">
+
+			<div class="profile-pic"> </div>
+
+			<div class="account-info">
+				
+				<h2> Jamie Smith </h2>
+
+				<span class="account-label"> Email:
+					
+					<span class="email user-input"> jamie.smith@workplace.com </span>
+
+				</span>
+
+
+				<span class="account-label"> Cell:
+					
+					<span class="cell-phone user-input"> 445 - 555 - 7575 </span>
+
+				</span>
+
+
+				<span class="account-label"> Home:
+
+					<span class="home-phone user-input"> 222 - 000 - 0955 </span>
+					
+				</span>
+
+
+			</div>
+
+		</div>
+		
+		<div class="page-desc findapet-desc">
+			
+			<h2> Find a Pet </h2>
+
+			<p>Search for recently lost or found, but unclaimed, pets in your immediate area. </p>
+			
+			<div class="search-container">
+
+				<input class="search-bar pet-search" placeholder="Search by species, breed, color, etc">
+
+				<a href="#">
+					<div class="search-btn button"> Search </div>
+				</a>
+			
+			</div>
+
+			<h3> Filters: </h3>
+
+			<select class="findapet-filter">
+				
+				<option>Species</option>
+				<option>Dog</option>
+				<option>Cat</option>
+				<option>Bunny</option>
+				<option>Other</option>
+
+			</select>
+
+			<select class="findapet-filter">
+				
+				<option>Breed</option>
+				<option>Terrior</option>
+				<option>Yorkie</option>
+				<option>Lab</option>
+				<option>Bulldog</option>
+				<option>Mixed</option>
+
+			</select>
+
+			<select class="findapet-filter">
+				
+				<option>Color</option>
+				<option>Black</option>
+				<option>White</option>
+				<option>Golden</option>
+				<option>Orange</option>
+				<option>Grey</option>
+				<option>Brown</option>
+				<option>Other</option>
+
+			</select>
+
+			<select class="findapet-filter">
+				
+				<option>Weight</option>
+				<option>10 - 20 lbs</option>
+				<option>20 - 30 lbs</option>
+				<option>30 - 40 lbs</option>
+
+			</select>
+
+			<select class="findapet-filter">
+				
+				<option>Size</option>
+				<option>Small</option>
+				<option>Medium</option>
+				<option>Large</option>
+
+			</select>
+
+		</div>
+
+		<div class="find-map-container not-mobile">
+			
+			<div class="find-map">
+
+				<div id="googleMap">	</div>
+
+				<a href="#">
+					<div class="button trigger-btn trigger-lost"> Lost Pets </div>
+				</a>
+				
+				<a href="#">
+					<div class="button trigger-btn trigger-found"> Found Pets </div>
+				</a>
+			
+			</div>
+
+		</div>
+
+	</div>
+	<!-- END ROW 3 -->
+
+
+	<!-- START ROW 4 -->
+	<div class="row row4">
+
+		<div class="trigger-btn-container mobile">
+
+			<a href="#">
+				<div class="trigger-lost-btn button"> Lost Pets </div>
+			</a>
+
+			<a href="#">
+				<div class="trigger-found-btn button"> Found Pets </div>
+			</a>
+
+		</div>
+		
+		<div class="lost-pets-container">
+			
+			<h3> Recently Lost Pets </h3>
+			
+			<div class="pet-container">
+
+				<div class="lost-pet-pic"> </div>
+
+				<h4 class="pet-name caption"> Muffins </h4>
+
+				<div class="pet-info mobile">
+
+					<h5> Breed: </h5> <span class="pet-breed info-text"> Terrior </span>
+					<h5> Color: </h5> <span class="pet-color info-text"> Black </span>
+					<h5> Size: </h5> <span class="pet-size info-text"> Small </span>
+					<h5> Weight </h5> <span class="pet-weight info-text"> 20 - 30 lbs </span>
+
+				</div>
+
+				<h5 class="contact-owners mobile"> Have any information? <a href="#"> Contact the owners </a> </h5>
+
+			</div>
+
+			<div class="pet-container">
+
+				<div class="lost-pet-pic"> </div>
+
+				<h4 class="pet-name caption"> Bob </h4>
+
+				<div class="pet-info mobile">
+
+					<h5> Breed: </h5> <span class="pet-breed info-text"> Terrior </span>
+					<h5> Color: </h5> <span class="pet-color info-text"> Black </span>
+					<h5> Size: </h5> <span class="pet-size info-text"> Small </span>
+					<h5> Weight </h5> <span class="pet-weight info-text"> 20 - 30 lbs </span>
+
+				</div>
+
+				<h5 class="contact-owners mobile"> Have any information? <a href="#"> Contact the owners </a> </h5>
+
+			</div>
+
+			<div class="pet-container">
+
+				<div class="lost-pet-pic"> </div>
+
+				<h4 class="pet-name caption"> Lily </h4>
+
+				<div class="pet-info mobile">
+
+					<h5> Breed: </h5> <span class="pet-breed info-text"> Terrior </span>
+					<h5> Color: </h5> <span class="pet-color info-text"> Black </span>
+					<h5> Size: </h5> <span class="pet-size info-text"> Small </span>
+					<h5> Weight </h5> <span class="pet-weight info-text"> 20 - 30 lbs </span>
+
+				</div>
+
+				<h5 class="contact-owners mobile"> Have any information? <a href="#"> Contact the owners </a> </h5>
+
+			</div>
+
+			<div class="pet-container">
+
+				<div class="lost-pet-pic"> </div>
+
+				<h4 class="pet-name caption"> Denny </h4>
+
+				<div class="pet-info mobile">
+
+					<h5> Breed: </h5> <span class="pet-breed info-text"> Terrior </span>
+					<h5> Color: </h5> <span class="pet-color info-text"> Black </span>
+					<h5> Size: </h5> <span class="pet-size info-text"> Small </span>
+					<h5> Weight </h5> <span class="pet-weight info-text"> 20 - 30 lbs </span>
+
+				</div>
+
+				<h5 class="contact-owners mobile"> Have any information? <a href="#"> Contact the owners </a> </h5>
+
+			</div>
+
+			<div class="pet-container">
+
+				<div class="lost-pet-pic"> </div>
+
+				<h4 class="pet-name caption"> Tucker </h4>
+
+				<div class="pet-info mobile">
+
+					<h5> Breed: </h5> <span class="pet-breed info-text"> Terrior </span>
+					<h5> Color: </h5> <span class="pet-color info-text"> Black </span>
+					<h5> Size: </h5> <span class="pet-size info-text"> Small </span>
+					<h5> Weight </h5> <span class="pet-weight info-text"> 20 - 30 lbs </span>
+
+				</div>
+
+				<h5 class="contact-owners mobile"> Have any information? <a href="#"> Contact the owners </a> </h5>
+
+			</div>
+
+			<div class="pet-container">
+
+				<div class="lost-pet-pic"> </div>
+
+				<h4 class="pet-name caption"> Killa </h4>
+
+				<div class="pet-info mobile">
+
+					<h5> Breed: </h5> <span class="pet-breed info-text"> Terrior </span>
+					<h5> Color: </h5> <span class="pet-color info-text"> Black </span>
+					<h5> Size: </h5> <span class="pet-size info-text"> Small </span>
+					<h5> Weight </h5> <span class="pet-weight info-text"> 20 - 30 lbs </span>
+
+				</div>
+
+				<h5 class="contact-owners mobile"> Have any information? <a href="#"> Contact the owners </a> </h5>
+
+			</div>
+
+			<div class="pet-container">
+
+				<div class="lost-pet-pic"> </div>
+
+				<h4 class="pet-name caption"> Mr. Ding Ding </h4>
+
+				<div class="pet-info mobile">
+
+					<h5> Breed: </h5> <span class="pet-breed info-text"> Terrior </span>
+					<h5> Color: </h5> <span class="pet-color info-text"> Black </span>
+					<h5> Size: </h5> <span class="pet-size info-text"> Small </span>
+					<h5> Weight </h5> <span class="pet-weight info-text"> 20 - 30 lbs </span>
+
+				</div>
+
+				<h5 class="contact-owners mobile"> Have any information? <a href="#"> Contact the owners </a> </h5>
+
+			</div>
+
+			<div class="pet-container">
+
+				<div class="lost-pet-pic"> </div>
+
+				<h4 class="pet-name caption"> Pepper </h4>
+
+				<div class="pet-info mobile">
+
+					<h5> Breed: </h5> <span class="pet-breed info-text"> Terrior </span>
+					<h5> Color: </h5> <span class="pet-color info-text"> Black </span>
+					<h5> Size: </h5> <span class="pet-size info-text"> Small </span>
+					<h5> Weight </h5> <span class="pet-weight info-text"> 20 - 30 lbs </span>
+
+				</div>
+
+				<h5 class="contact-owners mobile"> Have any information? <a href="#"> Contact the owners </a> </h5>
+
+			</div>
+
+
+		</div>
+
+
+
+		<div class="found-pets-container">
+			
+			<h3> Recently Found Pets </h3>
+			
+			<div class="pet-container">
+
+				<div class="found-pet-pic"> </div>
+
+				<div class="pet-info mobile">
+
+					<h5> Breed: </h5> <span class="pet-breed info-text"> Lab </span>
+					<h5> Color: </h5> <span class="pet-color info-text"> Yellow </span>
+					<h5> Size: </h5> <span class="pet-size info-text"> Medium </span>
+					<h5> Weight </h5> <span class="pet-weight info-text"> Unkown </span>
+
+				</div>
+
+				<h5 class="claim-pet"> <a href="#"> This is my pet! </a> </h5>
+
+			</div>
+
+			<div class="pet-container">
+
+				<div class="lost-pet-pic"> </div>
+
+				<div class="pet-info mobile">
+
+					<h5> Breed: </h5> <span class="pet-breed info-text"> Lab </span>
+					<h5> Color: </h5> <span class="pet-color info-text"> Yellow </span>
+					<h5> Size: </h5> <span class="pet-size info-text"> Medium </span>
+					<h5> Weight </h5> <span class="pet-weight info-text"> Unkown </span>
+
+				</div>
+
+				<h5 class="claim-pet"> <a href="#"> This is my pet! </a> </h5>
+
+			</div>
+
+			<div class="pet-container">
+
+				<div class="lost-pet-pic"> </div>
+
+				<div class="pet-info mobile">
+
+					<h5> Breed: </h5> <span class="pet-breed info-text"> Lab </span>
+					<h5> Color: </h5> <span class="pet-color info-text"> Yellow </span>
+					<h5> Size: </h5> <span class="pet-size info-text"> Medium </span>
+					<h5> Weight </h5> <span class="pet-weight info-text"> Unkown </span>
+
+				</div>
+
+				<h5 class="claim-pet"> <a href="#"> This is my pet! </a> </h5>
+
+			</div>
+
+			<div class="pet-container">
+
+				<div class="lost-pet-pic"> </div>
+
+				<div class="pet-info mobile">
+
+					<h5> Breed: </h5> <span class="pet-breed info-text"> Lab </span>
+					<h5> Color: </h5> <span class="pet-color info-text"> Yellow </span>
+					<h5> Size: </h5> <span class="pet-size info-text"> Medium </span>
+					<h5> Weight </h5> <span class="pet-weight info-text"> Unkown </span>
+
+				</div>
+
+				<h5 class="claim-pet"> <a href="#"> This is my pet! </a> </h5>
+
+			</div>
+
+			<div class="pet-container">
+
+				<div class="lost-pet-pic"> </div>
+
+				<div class="pet-info mobile">
+
+					<h5> Breed: </h5> <span class="pet-breed info-text"> Lab </span>
+					<h5> Color: </h5> <span class="pet-color info-text"> Yellow </span>
+					<h5> Size: </h5> <span class="pet-size info-text"> Medium </span>
+					<h5> Weight </h5> <span class="pet-weight info-text"> Unkown </span>
+
+				</div>
+
+				<h5 class="claim-pet"> <a href="#"> This is my pet! </a> </h5>
+
+			</div>
+
+			<div class="pet-container">
+
+				<div class="lost-pet-pic"> </div>
+
+				<div class="pet-info mobile">
+
+					<h5> Breed: </h5> <span class="pet-breed info-text"> Lab </span>
+					<h5> Color: </h5> <span class="pet-color info-text"> Yellow </span>
+					<h5> Size: </h5> <span class="pet-size info-text"> Medium </span>
+					<h5> Weight </h5> <span class="pet-weight info-text"> Unkown </span>
+
+				</div>
+
+				<h5 class="claim-pet"> <a href="#"> This is my pet! </a> </h5>
+
+			</div>
+
+			<div class="pet-container">
+
+				<div class="lost-pet-pic"> </div>
+
+				<div class="pet-info mobile">
+
+					<h5> Breed: </h5> <span class="pet-breed info-text"> Lab </span>
+					<h5> Color: </h5> <span class="pet-color info-text"> Yellow </span>
+					<h5> Size: </h5> <span class="pet-size info-text"> Medium </span>
+					<h5> Weight </h5> <span class="pet-weight info-text"> Unkown </span>
+
+				</div>
+
+				<h5 class="claim-pet"> <a href="#"> This is my pet! </a> </h5>
+
+			</div>
+
+			<div class="pet-container">
+
+				<div class="lost-pet-pic"> </div>
+
+				<div class="pet-info mobile">
+
+					<h5> Breed: </h5> <span class="pet-breed info-text"> Lab </span>
+					<h5> Color: </h5> <span class="pet-color info-text"> Yellow </span>
+					<h5> Size: </h5> <span class="pet-size info-text"> Medium </span>
+					<h5> Weight </h5> <span class="pet-weight info-text"> Unkown </span>
+
+				</div>
+
+				<h5 class="claim-pet"> <a href="#"> This is my pet! </a> </h5>
+
+			</div>
+
+
+		</div>
+
+
+	</div>
+	<!-- END ROW 4 -->
+
+
+
+</body>
+
+
+</html>
+
+

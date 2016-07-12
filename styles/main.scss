@@ -342,6 +342,41 @@ header{
 }
 
 
+// PROFILE PAGE
+// ---------------------------------
+// ---------------------------------
+
+.account-info-container{
+	@extend .col-sm-12;
+	@extend .col-md-7;
+	@extend .col-lg-10;
+
+	margin: 0 auto;
+	box-sizing: border-box;
+	padding-top: 2em;
+}
+
+.profile-pic{
+	float: left;
+	background-color: $prime-color;
+}
+
+.account-info{
+	float: left; 
+}
+
+.account-label{
+	display: block;
+	margin-bottom: 1.2em;
+	font-weight: 700;
+}
+
+.user-input{
+	font-weight: 500;
+}
+
+
+
 
 
 
