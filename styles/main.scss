@@ -347,13 +347,15 @@ header{
 // ---------------------------------
 
 .account-info-container{
-	@extend .col-sm-12;
-	@extend .col-md-7;
+	@extend .col-sm-11;
+	@extend .col-md-9;
 	@extend .col-lg-10;
 
-	margin: 0 auto;
+	margin: 1em auto;
 	box-sizing: border-box;
-	padding-top: 2em;
+	padding: 1em 0;
+	border-bottom: 2px solid $accent-color;
+	overflow: hidden;
 }
 
 .profile-pic{
@@ -373,6 +375,39 @@ header{
 
 .user-input{
 	font-weight: 500;
+}
+
+.edit-profile{
+	float: right;
+	clear: both;
+	margin-top: 2em;
+}
+
+
+// MY PETS (PROFILE PAGE)
+// ---------------------------------
+
+.profile-bottom-container{
+	@extend .col-sm-11;
+	@extend .col-md-9;
+	@extend .col-lg-10;
+
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.profile-nav{
+	@extend .col-sm-11;
+	@extend .col-md-9;
+	@extend .col-lg-3;
+
+	float: left;
+	list-style-type: none;
+	padding: 0;
+}
+
+.profile-nav-btn{
+	margin-bottom: 0.8em;
 }
 
 
