@@ -397,8 +397,8 @@ header{
 }
 
 .profile-nav{
-	@extend .col-sm-11;
-	@extend .col-md-9;
+	@extend .col-sm-12;
+	@extend .col-md-3;
 	@extend .col-lg-3;
 
 	float: left;
@@ -408,6 +408,47 @@ header{
 
 .profile-nav-btn{
 	margin-bottom: 0.8em;
+}
+
+.profile-bottom-content{
+	@extend .col-sm-11;
+	@extend .col-md-9;
+	@extend .col-lg-9;
+
+	float: left;
+}
+
+.profile-lost-pets{
+	float: left;
+}
+
+.add-new-pet{
+	float: right;
+	margin-top: 1em;
+}
+
+.lost-pet-entry{
+	clear: both;
+	background-color: $accent-color;
+	overflow: hidden;
+}
+
+.entry-info{
+	float: left;
+}
+
+.entry-pic{
+	float: right;
+	background-color: $sec-color;
+}
+
+.pet-atr{
+	font-weight: 700;
+}
+
+.pet-input{
+	font-weight: 500;
+	margin-right: 1.5em;
 }
 
 

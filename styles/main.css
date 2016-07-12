@@ -28,10 +28,10 @@
 .col-sm-10, .header-content, .reports-container, .home-map-container, .find-map-container {
   width: 82.66667%; }
 
-.col-sm-11, .account-info-container, .profile-bottom-container, .profile-nav {
+.col-sm-11, .account-info-container, .profile-bottom-container, .profile-bottom-content {
   width: 91.33333%; }
 
-.col-sm-12, .nav, .pre-banner, header, .page-desc, .lost-pets-container, .found-pets-container {
+.col-sm-12, .nav, .pre-banner, header, .page-desc, .lost-pets-container, .found-pets-container, .profile-nav {
   width: 100%; }
 
 @media (min-width: 520px) {
@@ -41,7 +41,7 @@
   .col-md-2 {
     width: 13.33333%; }
 
-  .col-md-3 {
+  .col-md-3, .profile-nav {
     width: 22%; }
 
   .col-md-4, .login-container, .find-map-container {
@@ -59,7 +59,7 @@
   .col-md-8 {
     width: 65.33333%; }
 
-  .col-md-9, .account-info-container, .profile-bottom-container, .profile-nav {
+  .col-md-9, .account-info-container, .profile-bottom-container, .profile-bottom-content {
     width: 74%; }
 
   .col-md-10, .header-content {
@@ -95,7 +95,7 @@
   .col-lg-8 {
     width: 65.33333%; }
 
-  .col-lg-9 {
+  .col-lg-9, .profile-bottom-content {
     width: 74%; }
 
   .col-lg-10, .account-info-container, .profile-bottom-container {
@@ -136,10 +136,10 @@
 .col-sm-10, .header-content, .reports-container, .home-map-container, .find-map-container {
   width: 82.66667%; }
 
-.col-sm-11, .account-info-container, .profile-bottom-container, .profile-nav {
+.col-sm-11, .account-info-container, .profile-bottom-container, .profile-bottom-content {
   width: 91.33333%; }
 
-.col-sm-12, .nav, .pre-banner, header, .page-desc, .lost-pets-container, .found-pets-container {
+.col-sm-12, .nav, .pre-banner, header, .page-desc, .lost-pets-container, .found-pets-container, .profile-nav {
   width: 100%; }
 
 @media (min-width: 520px) {
@@ -149,7 +149,7 @@
   .col-md-2 {
     width: 13.33333%; }
 
-  .col-md-3 {
+  .col-md-3, .profile-nav {
     width: 22%; }
 
   .col-md-4, .login-container, .find-map-container {
@@ -167,7 +167,7 @@
   .col-md-8 {
     width: 65.33333%; }
 
-  .col-md-9, .account-info-container, .profile-bottom-container, .profile-nav {
+  .col-md-9, .account-info-container, .profile-bottom-container, .profile-bottom-content {
     width: 74%; }
 
   .col-md-10, .header-content {
@@ -203,7 +203,7 @@
   .col-lg-8 {
     width: 65.33333%; }
 
-  .col-lg-9 {
+  .col-lg-9, .profile-bottom-content {
     width: 74%; }
 
   .col-lg-10, .account-info-container, .profile-bottom-container {
@@ -427,7 +427,11 @@
   .profile-pic {
     width: 180px;
     height: 200px;
-    margin-right: 2em; } }
+    margin-right: 2em; }
+
+  .entry-pic {
+    width: 160px;
+    height: 160px; } }
 body {
   position: relative;
   margin: 0 auto; }
@@ -659,5 +663,34 @@ header {
 
 .profile-nav-btn {
   margin-bottom: 0.8em; }
+
+.profile-bottom-content {
+  float: left; }
+
+.profile-lost-pets {
+  float: left; }
+
+.add-new-pet {
+  float: right;
+  margin-top: 1em; }
+
+.lost-pet-entry {
+  clear: both;
+  background-color: #D8D7D9;
+  overflow: hidden; }
+
+.entry-info {
+  float: left; }
+
+.entry-pic {
+  float: right;
+  background-color: pink; }
+
+.pet-atr {
+  font-weight: 700; }
+
+.pet-input {
+  font-weight: 500;
+  margin-right: 1.5em; }
 
 /*# sourceMappingURL=main.css.map */
