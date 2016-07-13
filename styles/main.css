@@ -283,7 +283,16 @@
     text-align: left; }
 
   .account-settings {
-    text-align: right; } }
+    text-align: right; }
+
+  .pet-atr {
+    display: block;
+    float: none;
+    margin-bottom: 0.5em; }
+
+  .entry-pic {
+    width: 110px;
+    height: 110px; } }
 @media (min-width: 520px) {
   .mobile {
     display: none; }
@@ -373,7 +382,16 @@
     font-size: 1em; }
 
   .my-pets, .my-messages, .account-settings {
-    text-align: left; } }
+    text-align: left; }
+
+  .pet-atr {
+    display: inline-block;
+    float: left;
+    margin-right: 1.5em; }
+
+  .entry-pic {
+    width: 120px;
+    height: 120px; } }
 @media (min-width: 978px) {
   a {
     font-size: 1rem; }
@@ -428,6 +446,9 @@
     width: 180px;
     height: 200px;
     margin-right: 2em; }
+
+  .pet-input {
+    margin-right: 1.5em; }
 
   .entry-pic {
     width: 160px;
@@ -680,7 +701,8 @@ header {
   overflow: hidden; }
 
 .entry-info {
-  float: left; }
+  float: left;
+  width: 65%; }
 
 .entry-pic {
   float: right;
@@ -690,7 +712,6 @@ header {
   font-weight: 700; }
 
 .pet-input {
-  font-weight: 500;
-  margin-right: 1.5em; }
+  font-weight: 500; }
 
 /*# sourceMappingURL=main.css.map */
