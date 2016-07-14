@@ -28,7 +28,7 @@
 .col-sm-10, .header-content, .reports-container, .home-map-container, .find-map-container {
   width: 82.66667%; }
 
-.col-sm-11, .account-info-container, .profile-bottom-container, .profile-bottom-content {
+.col-sm-11, .account-info-container, .profile-bottom-container, .profile-bottom-content, .message-container {
   width: 91.33333%; }
 
 .col-sm-12, .nav, .pre-banner, header, .page-desc, .lost-pets-container, .found-pets-container, .profile-nav {
@@ -59,7 +59,7 @@
   .col-md-8 {
     width: 65.33333%; }
 
-  .col-md-9, .account-info-container, .profile-bottom-container, .profile-bottom-content {
+  .col-md-9, .account-info-container, .profile-bottom-container, .profile-bottom-content, .message-container {
     width: 74%; }
 
   .col-md-10, .header-content {
@@ -95,7 +95,7 @@
   .col-lg-8 {
     width: 65.33333%; }
 
-  .col-lg-9, .profile-bottom-content {
+  .col-lg-9, .profile-bottom-content, .message-container {
     width: 74%; }
 
   .col-lg-10, .account-info-container, .profile-bottom-container {
@@ -136,7 +136,7 @@
 .col-sm-10, .header-content, .reports-container, .home-map-container, .find-map-container {
   width: 82.66667%; }
 
-.col-sm-11, .account-info-container, .profile-bottom-container, .profile-bottom-content {
+.col-sm-11, .account-info-container, .profile-bottom-container, .profile-bottom-content, .message-container {
   width: 91.33333%; }
 
 .col-sm-12, .nav, .pre-banner, header, .page-desc, .lost-pets-container, .found-pets-container, .profile-nav {
@@ -167,7 +167,7 @@
   .col-md-8 {
     width: 65.33333%; }
 
-  .col-md-9, .account-info-container, .profile-bottom-container, .profile-bottom-content {
+  .col-md-9, .account-info-container, .profile-bottom-container, .profile-bottom-content, .message-container {
     width: 74%; }
 
   .col-md-10, .header-content {
@@ -203,7 +203,7 @@
   .col-lg-8 {
     width: 65.33333%; }
 
-  .col-lg-9, .profile-bottom-content {
+  .col-lg-9, .profile-bottom-content, .message-container {
     width: 74%; }
 
   .col-lg-10, .account-info-container, .profile-bottom-container {
@@ -676,6 +676,9 @@ header {
   clear: both;
   margin-top: 2em; }
 
+.my-pets-content {
+  display: none; }
+
 .profile-bottom-container {
   margin: 0 auto;
   overflow: hidden; }
@@ -690,7 +693,8 @@ header {
 
 .profile-bottom-content {
   float: left;
-  max-width: 700px; }
+  max-width: 700px;
+  margin-left: 4%; }
 
 .profile-lost-pets {
   float: left; }
@@ -740,5 +744,50 @@ header {
 .edit-entry-btn {
   margin-right: 2em;
   margin-bottom: 1em; }
+
+.my-messages-contentlast-child {
+  border-bottom: none; }
+
+.message-container {
+  float: left;
+  max-width: 700px;
+  margin-top: 1em;
+  margin-bottom: 3em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #D8D7D9; }
+
+.new-message, .seen-message {
+  display: inline-block;
+  margin-bottom: 0.5em; }
+
+.message-date-posted {
+  font-style: italic; }
+
+.seen-message {
+  color: #D8D7D9;
+  font-style: italic; }
+
+.replied-notice {
+  color: #D8D7D9;
+  font-style: italic;
+  font-size: 0.7em; }
+
+.message-content {
+  border: 1px solid #D8D7D9;
+  margin-bottom: 1em; }
+
+.message-content-header {
+  background-color: #D8D7D9;
+  padding: 0.5em 1em;
+  margin-bottom: 1em; }
+
+.message-text {
+  padding: 0.5em 1em; }
+
+.reply-btn {
+  float: left; }
+
+.delete-message-btn {
+  float: right; }
 
 /*# sourceMappingURL=main.css.map */

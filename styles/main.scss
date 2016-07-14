@@ -395,6 +395,10 @@ header{
 // MY PETS (PROFILE PAGE)
 // ---------------------------------
 
+.my-pets-content{
+	display: none;
+}
+
 .profile-bottom-container{
 	@extend .col-sm-11;
 	@extend .col-md-9;
@@ -425,6 +429,7 @@ header{
 
 	float: left;
 	max-width: 700px;
+	margin-left: $gut-width;
 }
 
 .profile-lost-pets{
@@ -495,6 +500,74 @@ header{
 	margin-right: 2em;
 	margin-bottom: 1em;
 }
+
+
+// MY MESSAGES (PROFILE PAGE)
+// ---------------------------------
+
+.my-messages-content{
+	
+	&last-child{
+		border-bottom: none;
+	}
+}
+
+.message-container{
+	@extend .col-sm-11;
+	@extend .col-md-9;
+	@extend .col-lg-9;
+
+	float: left;
+	max-width: 700px;
+	margin-top: 1em;
+	margin-bottom: 3em;
+	padding-bottom: 1em;
+	border-bottom: 1px solid $accent-color;
+}
+
+.new-message, .seen-message{
+	display: inline-block;
+	margin-bottom: 0.5em;
+}
+
+.message-date-posted{
+	font-style: italic;
+}
+
+.seen-message{
+	color: $accent-color;
+	font-style: italic;
+}
+
+.replied-notice{
+	color: $accent-color;
+	font-style: italic;
+	font-size: 0.7em;
+}
+
+.message-content{
+	border: 1px solid $accent-color;
+	margin-bottom: 1em;
+}
+
+.message-content-header{
+	background-color: $accent-color;
+	padding: 0.5em 1em;
+	margin-bottom: 1em;
+}
+
+.message-text{
+	padding: 0.5em 1em;
+}
+
+.reply-btn{
+	float: left;
+}
+
+.delete-message-btn{
+	float: right;
+}
+
 
 
 
