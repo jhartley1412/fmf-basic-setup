@@ -12,6 +12,10 @@ body{
 	margin: 0 auto;
 }
 
+.italic{
+	font-style: italic;
+}
+
 .row{
 	width: 100%;
 	max-width: 1800px;
@@ -432,15 +436,23 @@ header{
 	margin-top: 1em;
 }
 
-.lost-pet-entry{
+.lost-pet-entry, .found-pet-entry{
 	clear: both;
 	background-color: $accent-color;
 	overflow: hidden;
+	margin-bottom: 3em;
 }
 
 .entry-info{
 	float: left;
+}
+
+.has-content{
 	width: 65%;
+}
+
+.no-content{
+	width: 100%;
 }
 
 .entry-pic{
