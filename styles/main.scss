@@ -457,6 +457,10 @@ header{
 	tr{
 		width: 50%;
 	}
+
+	td{
+		min-width: 100px;
+	}
 }
 
 .pet-atr{
@@ -465,6 +469,19 @@ header{
 
 .pet-trait{
 	font-weight: 500;
+}
+
+.pet-location{
+	color: #fff;
+}
+
+.date-posted{
+	font-style: italic;
+}
+
+.edit-entry-btn{
+	margin-right: 2em;
+	margin-bottom: 1em;
 }
 
 

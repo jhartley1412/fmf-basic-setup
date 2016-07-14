@@ -285,6 +285,12 @@
   .account-settings {
     text-align: right; }
 
+  .pet-entry td {
+    display: block;
+    float: none;
+    clear: all;
+    margin-bottom: 0.5em; }
+
   .entry-pic {
     width: 110px;
     height: 110px; } }
@@ -378,6 +384,10 @@
 
   .my-pets, .my-messages, .account-settings {
     text-align: left; }
+
+  .pet-entry td {
+    display: inline-block;
+    margin-right: 2em; }
 
   .entry-pic {
     width: 120px;
@@ -703,11 +713,23 @@ header {
   width: 100%; }
   .pet-entry tr {
     width: 50%; }
+  .pet-entry td {
+    min-width: 100px; }
 
 .pet-atr {
   font-weight: 700; }
 
 .pet-trait {
   font-weight: 500; }
+
+.pet-location {
+  color: #fff; }
+
+.date-posted {
+  font-style: italic; }
+
+.edit-entry-btn {
+  margin-right: 2em;
+  margin-bottom: 1em; }
 
 /*# sourceMappingURL=main.css.map */

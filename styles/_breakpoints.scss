@@ -109,6 +109,18 @@
 		text-align: right;
 	}
 
+
+	// PET ENTRY TABLE
+	.pet-entry{
+
+		td{
+			display: block;
+			float: none;
+			clear: all;
+			margin-bottom: 0.5em;
+		}
+	}
+
 	.entry-pic{
 		width: 110px;
 		height: 110px;
@@ -259,6 +271,16 @@
 
 	.my-pets, .my-messages, .account-settings{
 		text-align: left;
+	}
+
+
+	// PET ENTRY TABLE
+	.pet-entry{
+
+		td{
+			display: inline-block;
+			margin-right: 2em;
+		}
 	}
 
 	.entry-pic{
