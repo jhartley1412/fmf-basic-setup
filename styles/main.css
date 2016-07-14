@@ -285,11 +285,6 @@
   .account-settings {
     text-align: right; }
 
-  .pet-atr {
-    display: block;
-    float: none;
-    margin-bottom: 0.5em; }
-
   .entry-pic {
     width: 110px;
     height: 110px; } }
@@ -384,11 +379,6 @@
   .my-pets, .my-messages, .account-settings {
     text-align: left; }
 
-  .pet-atr {
-    display: inline-block;
-    float: left;
-    margin-right: 1.5em; }
-
   .entry-pic {
     width: 120px;
     height: 120px; } }
@@ -447,9 +437,6 @@
     height: 200px;
     margin-right: 2em; }
 
-  .pet-input {
-    margin-right: 1.5em; }
-
   .entry-pic {
     width: 160px;
     height: 160px; } }
@@ -462,6 +449,9 @@ body {
   max-width: 1800px;
   margin: 0 auto 1em auto;
   overflow: hidden; }
+
+.row2, .row3, .row4 {
+  max-width: 1400px; }
 
 .row3 {
   margin-top: 2em; }
@@ -686,7 +676,8 @@ header {
   margin-bottom: 0.8em; }
 
 .profile-bottom-content {
-  float: left; }
+  float: left;
+  max-width: 700px; }
 
 .profile-lost-pets {
   float: left; }
@@ -708,10 +699,15 @@ header {
   float: right;
   background-color: pink; }
 
+.pet-entry {
+  width: 100%; }
+  .pet-entry tr {
+    width: 50%; }
+
 .pet-atr {
   font-weight: 700; }
 
-.pet-input {
+.pet-trait {
   font-weight: 500; }
 
 /*# sourceMappingURL=main.css.map */

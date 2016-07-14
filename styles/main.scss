@@ -19,6 +19,10 @@ body{
 	overflow: hidden;
 }
 
+.row2, .row3, .row4{
+	max-width: 1400px;
+}
+
 // WHO WE ARE ROW
 .row3{
 	margin-top: 2em;
@@ -416,6 +420,7 @@ header{
 	@extend .col-lg-9;
 
 	float: left;
+	max-width: 700px;
 }
 
 .profile-lost-pets{
@@ -443,11 +448,22 @@ header{
 	background-color: $sec-color;
 }
 
+// PET ENTRY TABLE
+// ---------------------------------
+
+.pet-entry{
+	width: 100%;
+
+	tr{
+		width: 50%;
+	}
+}
+
 .pet-atr{
 	font-weight: 700;
 }
 
-.pet-input{
+.pet-trait{
 	font-weight: 500;
 }
 
