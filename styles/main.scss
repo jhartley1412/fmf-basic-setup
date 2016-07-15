@@ -505,13 +505,6 @@ header{
 // MY MESSAGES (PROFILE PAGE)
 // ---------------------------------
 
-.my-messages-content{
-	
-	&last-child{
-		border-bottom: none;
-	}
-}
-
 .message-container{
 	@extend .col-sm-11;
 	@extend .col-md-9;
@@ -523,6 +516,10 @@ header{
 	margin-bottom: 3em;
 	padding-bottom: 1em;
 	border-bottom: 1px solid $accent-color;
+
+	&:last-of-type{
+		border-bottom: none;
+	}
 }
 
 .new-message, .seen-message{
