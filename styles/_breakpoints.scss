@@ -233,6 +233,12 @@
 		text-align: center;
 	}
 
+	// PET PROFILE PAGE
+	.ind-pet-pic{
+		width: 170px;
+		height: 140px;
+	}
+
 	// GOOGLE MAPS
 	.home-map{
 		width: 300px;
@@ -245,6 +251,16 @@
 	}
 
 	.find-map{
+		width: 200px;
+		height: 150px;
+
+		#googleMap{
+			width: 200px;
+			height: 150px;
+		}
+	}
+
+	.pet-map{
 		width: 200px;
 		height: 150px;
 

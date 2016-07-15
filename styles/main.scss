@@ -356,7 +356,7 @@ header{
 
 .pet-profile-container{
 	@extend .col-sm-11;
-	@extend .col-md-9;
+	@extend .col-md-11;
 	@extend .col-lg-11;
 
 	overflow: hidden;
@@ -367,14 +367,18 @@ header{
 
 .pet-profile-content{
 	@extend .col-sm-11;
-	@extend .col-md-9;
+	@extend .col-md-;
 	@extend .col-lg-7;
+
+	overflow: hidden;
+	float: left;
 }
 
 .go-back-btn{
 	float: left;
+	clear: both;
 	display: block;
-	margin-bottom: 2em;
+	margin-top: 1em;
 }
 
 .ind-pet-pic{
@@ -552,7 +556,7 @@ header{
 }
 
 .pet-location{
-	color: #fff;
+	color: $prime-color;
 }
 
 .date-posted{
