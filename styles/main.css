@@ -28,7 +28,7 @@
 .col-sm-10, .header-content, .reports-container, .home-map-container, .find-map-container {
   width: 82.66667%; }
 
-.col-sm-11, .pet-profile-container, .account-info-container, .profile-bottom-container, .profile-bottom-content, .message-container {
+.col-sm-11, .pet-profile-container, .pet-profile-content, .other-pets-container, .account-info-container, .profile-bottom-container, .profile-bottom-content, .message-container {
   width: 91.33333%; }
 
 .col-sm-12, .nav, .pre-banner, header, .page-desc, .lost-pets-container, .found-pets-container, .profile-nav {
@@ -59,7 +59,7 @@
   .col-md-8 {
     width: 65.33333%; }
 
-  .col-md-9, .pet-profile-container, .account-info-container, .profile-bottom-container, .profile-bottom-content, .message-container {
+  .col-md-9, .pet-profile-container, .pet-profile-content, .other-pets-container, .account-info-container, .profile-bottom-container, .profile-bottom-content, .message-container {
     width: 74%; }
 
   .col-md-10, .header-content {
@@ -89,19 +89,19 @@
   .col-lg-6, .home-map-container {
     width: 48%; }
 
-  .col-lg-7, .page-desc, .lost-pets-container, .found-pets-container, .pet-profile-container {
+  .col-lg-7, .page-desc, .lost-pets-container, .found-pets-container, .pet-profile-content {
     width: 56.66667%; }
 
   .col-lg-8 {
     width: 65.33333%; }
 
-  .col-lg-9, .profile-bottom-content, .message-container {
+  .col-lg-9, .other-pets-container, .profile-bottom-content, .message-container {
     width: 74%; }
 
   .col-lg-10, .account-info-container, .profile-bottom-container {
     width: 82.66667%; }
 
-  .col-lg-11, .nav {
+  .col-lg-11, .nav, .pet-profile-container {
     width: 91.33333%; }
 
   .col-lg-12, .pre-banner, header {
@@ -136,7 +136,7 @@
 .col-sm-10, .header-content, .reports-container, .home-map-container, .find-map-container {
   width: 82.66667%; }
 
-.col-sm-11, .pet-profile-container, .account-info-container, .profile-bottom-container, .profile-bottom-content, .message-container {
+.col-sm-11, .pet-profile-container, .pet-profile-content, .other-pets-container, .account-info-container, .profile-bottom-container, .profile-bottom-content, .message-container {
   width: 91.33333%; }
 
 .col-sm-12, .nav, .pre-banner, header, .page-desc, .lost-pets-container, .found-pets-container, .profile-nav {
@@ -167,7 +167,7 @@
   .col-md-8 {
     width: 65.33333%; }
 
-  .col-md-9, .pet-profile-container, .account-info-container, .profile-bottom-container, .profile-bottom-content, .message-container {
+  .col-md-9, .pet-profile-container, .pet-profile-content, .other-pets-container, .account-info-container, .profile-bottom-container, .profile-bottom-content, .message-container {
     width: 74%; }
 
   .col-md-10, .header-content {
@@ -197,19 +197,19 @@
   .col-lg-6, .home-map-container {
     width: 48%; }
 
-  .col-lg-7, .page-desc, .lost-pets-container, .found-pets-container, .pet-profile-container {
+  .col-lg-7, .page-desc, .lost-pets-container, .found-pets-container, .pet-profile-content {
     width: 56.66667%; }
 
   .col-lg-8 {
     width: 65.33333%; }
 
-  .col-lg-9, .profile-bottom-content, .message-container {
+  .col-lg-9, .other-pets-container, .profile-bottom-content, .message-container {
     width: 74%; }
 
   .col-lg-10, .account-info-container, .profile-bottom-container {
     width: 82.66667%; }
 
-  .col-lg-11, .nav {
+  .col-lg-11, .nav, .pet-profile-container {
     width: 91.33333%; }
 
   .col-lg-12, .pre-banner, header {
@@ -446,6 +446,13 @@
       width: 300px;
       height: 250px; }
 
+  .pet-map {
+    width: 300px;
+    height: 250px; }
+    .pet-map #googleMap {
+      width: 300px;
+      height: 250px; }
+
   .profile-pic {
     width: 180px;
     height: 200px;
@@ -654,9 +661,10 @@ header {
   display: block; }
 
 .pet-profile-container {
-  margin-left: 4%;
-  background-color: #D8D7D9;
-  overflow: hidden; }
+  overflow: hidden;
+  margin: 0 auto;
+  padding-bottom: 2em;
+  border-bottom: 1px solid #D8D7D9; }
 
 .go-back-btn {
   float: left;
@@ -671,6 +679,14 @@ header {
 
 .ind-pet-info {
   float: left; }
+
+.pet-map-container {
+  float: right;
+  margin-right: 4%; }
+
+.other-pets-container {
+  margin: 0 auto;
+  overflow: hidden; }
 
 .account-info-container {
   margin: 1em auto;

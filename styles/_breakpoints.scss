@@ -357,8 +357,6 @@
 		width: 300px;
 		height: 270px;
 	}
-
-
 	
 
 	// FIND A PET DESC
@@ -379,6 +377,16 @@
 	}
 
 	.find-map{
+		width: 300px;
+		height: 250px;
+
+		#googleMap{
+			width: 300px;
+			height: 250px;
+		}
+	}
+
+	.pet-map{
 		width: 300px;
 		height: 250px;
 

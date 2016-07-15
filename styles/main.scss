@@ -357,11 +357,18 @@ header{
 .pet-profile-container{
 	@extend .col-sm-11;
 	@extend .col-md-9;
-	@extend .col-lg-7;
+	@extend .col-lg-11;
 
-	margin-left: $gut-width;
-	background-color: $accent-color;
 	overflow: hidden;
+	margin: 0 auto;
+	padding-bottom: 2em;
+	border-bottom: 1px solid $accent-color;
+}
+
+.pet-profile-content{
+	@extend .col-sm-11;
+	@extend .col-md-9;
+	@extend .col-lg-7;
 }
 
 .go-back-btn{
@@ -379,6 +386,20 @@ header{
 
 .ind-pet-info{
 	float: left;
+}
+
+.pet-map-container{
+	float: right;
+	margin-right: $gut-width;
+}
+
+.other-pets-container{
+	@extend .col-sm-11;
+	@extend .col-md-9;
+	@extend .col-lg-9;
+
+	margin: 0 auto;
+	overflow: hidden;
 }
 
 
