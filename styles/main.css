@@ -687,6 +687,10 @@ header {
 .other-pets-container {
   margin: 0 auto;
   overflow: hidden; }
+  .other-pets-container .pet-container {
+    margin-right: 6%; }
+    .other-pets-container .pet-container:last-of-type {
+      margin-right: 0; }
 
 .account-info-container {
   margin: 1em auto;

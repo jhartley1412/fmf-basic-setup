@@ -400,6 +400,14 @@ header{
 
 	margin: 0 auto;
 	overflow: hidden;
+
+	.pet-container{
+		margin-right: 6%;
+
+		&:last-of-type{
+			margin-right: 0;
+		}
+	}
 }
 
 
