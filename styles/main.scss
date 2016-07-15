@@ -350,6 +350,40 @@ header{
 }
 
 
+
+// INDEPENT PET PAGE
+// ---------------------------------
+
+.pet-profile-container{
+	@extend .col-sm-11;
+	@extend .col-md-9;
+	@extend .col-lg-7;
+
+	margin-left: $gut-width;
+	background-color: $accent-color;
+	overflow: hidden;
+}
+
+.go-back-btn{
+	float: left;
+	display: block;
+	margin-bottom: 2em;
+}
+
+.ind-pet-pic{
+	background-color: $sec-color;
+	float: left;
+	margin-right: 2em;
+	clear: both;
+}
+
+.ind-pet-info{
+	float: left;
+}
+
+
+
+
 // PROFILE PAGE
 // ---------------------------------
 // ---------------------------------

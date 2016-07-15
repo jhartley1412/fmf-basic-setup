@@ -28,7 +28,7 @@
 .col-sm-10, .header-content, .reports-container, .home-map-container, .find-map-container {
   width: 82.66667%; }
 
-.col-sm-11, .account-info-container, .profile-bottom-container, .profile-bottom-content, .message-container {
+.col-sm-11, .pet-profile-container, .account-info-container, .profile-bottom-container, .profile-bottom-content, .message-container {
   width: 91.33333%; }
 
 .col-sm-12, .nav, .pre-banner, header, .page-desc, .lost-pets-container, .found-pets-container, .profile-nav {
@@ -59,7 +59,7 @@
   .col-md-8 {
     width: 65.33333%; }
 
-  .col-md-9, .account-info-container, .profile-bottom-container, .profile-bottom-content, .message-container {
+  .col-md-9, .pet-profile-container, .account-info-container, .profile-bottom-container, .profile-bottom-content, .message-container {
     width: 74%; }
 
   .col-md-10, .header-content {
@@ -89,7 +89,7 @@
   .col-lg-6, .home-map-container {
     width: 48%; }
 
-  .col-lg-7, .page-desc, .lost-pets-container, .found-pets-container {
+  .col-lg-7, .page-desc, .lost-pets-container, .found-pets-container, .pet-profile-container {
     width: 56.66667%; }
 
   .col-lg-8 {
@@ -136,7 +136,7 @@
 .col-sm-10, .header-content, .reports-container, .home-map-container, .find-map-container {
   width: 82.66667%; }
 
-.col-sm-11, .account-info-container, .profile-bottom-container, .profile-bottom-content, .message-container {
+.col-sm-11, .pet-profile-container, .account-info-container, .profile-bottom-container, .profile-bottom-content, .message-container {
   width: 91.33333%; }
 
 .col-sm-12, .nav, .pre-banner, header, .page-desc, .lost-pets-container, .found-pets-container, .profile-nav {
@@ -167,7 +167,7 @@
   .col-md-8 {
     width: 65.33333%; }
 
-  .col-md-9, .account-info-container, .profile-bottom-container, .profile-bottom-content, .message-container {
+  .col-md-9, .pet-profile-container, .account-info-container, .profile-bottom-container, .profile-bottom-content, .message-container {
     width: 74%; }
 
   .col-md-10, .header-content {
@@ -197,7 +197,7 @@
   .col-lg-6, .home-map-container {
     width: 48%; }
 
-  .col-lg-7, .page-desc, .lost-pets-container, .found-pets-container {
+  .col-lg-7, .page-desc, .lost-pets-container, .found-pets-container, .pet-profile-container {
     width: 56.66667%; }
 
   .col-lg-8 {
@@ -425,6 +425,10 @@
     width: 150px;
     height: 200px; }
 
+  .ind-pet-pic {
+    width: 300px;
+    height: 270px; }
+
   .findapet-desc {
     margin-left: 8%; }
 
@@ -648,6 +652,25 @@ header {
 
 .claim-pet {
   display: block; }
+
+.pet-profile-container {
+  margin-left: 4%;
+  background-color: #D8D7D9;
+  overflow: hidden; }
+
+.go-back-btn {
+  float: left;
+  display: block;
+  margin-bottom: 2em; }
+
+.ind-pet-pic {
+  background-color: pink;
+  float: left;
+  margin-right: 2em;
+  clear: both; }
+
+.ind-pet-info {
+  float: left; }
 
 .account-info-container {
   margin: 1em auto;
