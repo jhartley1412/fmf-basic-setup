@@ -7,7 +7,7 @@
 @media(min-width: 1px){
 	
 	// UNIVERSAL ELEMENTS
-	.mobile{
+	.mobile, .mobile-btn{
 		display: block;
 	}
 
@@ -166,7 +166,7 @@
 @media(min-width: 520px){
 	
 	// UNIVERSAL ELEMENTS
-	.mobile{
+	.mobile, .mobile-btn{
 		display: none;
 	}
 

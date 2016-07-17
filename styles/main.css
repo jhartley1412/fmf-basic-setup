@@ -215,7 +215,7 @@
   .col-lg-12, .pre-banner, header, .pet-profile-content {
     width: 100%; } }
 @media (min-width: 1px) {
-  .mobile {
+  .mobile, .mobile-btn {
     display: block; }
 
   .not-mobile {
@@ -316,7 +316,7 @@
     width: 110px;
     height: 110px; } }
 @media (min-width: 520px) {
-  .mobile {
+  .mobile, .mobile-btn {
     display: none; }
 
   .not-mobile {
@@ -526,6 +526,8 @@ body {
   max-width: 1800px;
   margin: 0 auto 1em auto;
   overflow: hidden; }
+  .row:last-of-type {
+    margin: 2em auto 0 auto; }
 
 .row2, .row3, .row4 {
   max-width: 1400px; }
@@ -537,6 +539,22 @@ h5 {
   display: inline-block;
   clear: both; }
 
+footer {
+  background-color: #D8D7D9;
+  padding: 2em;
+  overflow: hidden; }
+  footer h3.footer-header {
+    font-size: 1em; }
+  footer h4.footer-header, footer p, footer a {
+    font-size: 0.8em; }
+
+.footer-section {
+  float: left;
+  margin-right: 2em; }
+  .footer-section a {
+    display: block;
+    margin-bottom: 0.5em; }
+
 .button {
   display: inline-block;
   padding: 0.62em 1em;
@@ -546,7 +564,6 @@ h5 {
   max-height: 2em; }
 
 .mobile-btn {
-  display: block;
   padding: 0.62em 1em;
   background-color: lightblue;
   min-width: 50.703px;
