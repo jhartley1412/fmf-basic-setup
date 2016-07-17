@@ -366,16 +366,14 @@ header{
 }
 
 .pet-profile-content{
-	@extend .col-sm-11;
-	@extend .col-md-;
+	@extend .col-sm-6;
+	@extend .col-md-8;
 	@extend .col-lg-7;
 
 	overflow: hidden;
-	float: left;
 }
 
 .go-back-btn{
-	float: left;
 	clear: both;
 	display: block;
 	margin-top: 1em;
@@ -383,9 +381,6 @@ header{
 
 .ind-pet-pic{
 	background-color: $sec-color;
-	float: left;
-	margin-right: 2em;
-	clear: both;
 }
 
 .ind-pet-info{
