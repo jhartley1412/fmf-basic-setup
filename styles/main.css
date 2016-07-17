@@ -545,6 +545,15 @@ h5 {
   text-align: center;
   max-height: 2em; }
 
+.mobile-btn {
+  display: block;
+  padding: 0.62em 1em;
+  background-color: lightblue;
+  min-width: 50.703px;
+  text-align: center;
+  max-height: 2em;
+  font-size: 1em; }
+
 .norm-input {
   display: block;
   margin-bottom: 1em;
