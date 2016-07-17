@@ -366,9 +366,9 @@ header{
 }
 
 .pet-profile-content{
-	@extend .col-sm-6;
-	@extend .col-md-8;
-	@extend .col-lg-7;
+	@extend .col-sm-10;
+	@extend .col-md-12;
+	@extend .col-lg-12;
 
 	overflow: hidden;
 }
@@ -384,7 +384,25 @@ header{
 }
 
 .ind-pet-info{
-	float: left;
+	box-sizing: border-box;
+}
+
+.ind-pet-entry{
+	width: 100%;
+
+	tr{
+		width: 50%;
+	}
+
+	td{
+		min-width: 100px;
+		display: inline-block;
+		margin-right: 1em;
+
+		&:last-of-type{
+			margin-right: 0;
+		}
+	}
 }
 
 .pet-map-container{
